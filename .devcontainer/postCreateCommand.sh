@@ -83,8 +83,8 @@ echo "data.img" > windows/windows.boot
     echo "      - 8006:8006/tcp"
     echo "      - 8006:8006/udp"
     echo "    volumes:"
-    echo "      - /workspaces/$RepositoryName/windows:/storage"
-    echo "      - /tmp/$RepositoryName/windows:/storage2"
+    echo "      - /workspaces/$(basename $PWD)/windows:/storage"
+    echo "      - /tmp/$(basename $PWD)/windows:/storage2"
     echo "    privileged: true"
     echo "    restart: always"
 } > windows.yaml
