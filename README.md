@@ -182,7 +182,7 @@ Create three registry entries at `HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig`:
 
 4\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
 - press <kbd>Shift</kbd> + <kbd>F10</kbd>
-- type `netsh advfirewall set allprofiles state off`
+- type `netsh advfirewall set allprofiles state off` and press <kbd>Enter</kbd>
 - type `regedit` and press <kbd>Enter</kbd>
 
 Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm`:
