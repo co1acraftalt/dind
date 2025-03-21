@@ -241,15 +241,3 @@ GitHub Codespaces runs on Microsoft Azure which allows you to activate Windows 1
 > [!TIP]
 > This allows you to activate Windows 11 for free using the KMS server from Azure Virtual Desktop (AVD) and Windows 365. <br>
 > This is because the KMS server checks if the GitHub Codespaces' IP address comes from Microsoft Corporation (AS8075).
-
----
-
-### How can I activate Office 2024?
-
-GitHub Codespaces runs on Microsoft Azure which allows you to activate Office 2024 for free:
-- press <kbd>Windows</kbd> + <kbd>R</kbd>
-- type `cmd` and press <kbd>Enter</kbd>
-- type `cd C:\Program Files\Microsoft Office\Office16` and press <kbd>Enter</kbd>
-- type `cscript //nologo ospp.vbs /inpkey:XJ2XN-FW8RK-P4HMP-DKDBV-GCVGB` and press <kbd>Enter</kbd>
-- type `cscript //nologo ospp.vbs /sethst:azkms.core.windows.net` and press <kbd>Enter</kbd>
-- type `cscript //nologo ospp.vbs /act` and press <kbd>Enter</kbd>
