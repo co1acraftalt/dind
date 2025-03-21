@@ -51,7 +51,7 @@ Click on the button below:
       "state": "Available"
     }
     ```
-6) When it says `"state": "Available"` then you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
+6) When it says `"state": "Available"`, you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
     ![Image](https://github.com/user-attachments/assets/42406f1f-75cf-4cff-b1ad-66413ba93d67)
 
 ## Frequently Asked Questions (FAQ)
