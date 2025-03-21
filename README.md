@@ -18,7 +18,7 @@ Click on the button below:
 
 ### Using the CLI version of GitHub (alternative)
 
-1) Install [GitHub CLI](https://github.com/cli/cli/releases/download/v2.68.1/gh_2.68.1_windows_amd64.msi)
+1) Install [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi)
 2) Type `gh codespace create --repo ItzLevvie/dind --machine standardLinux32gb --idle-timeout 4h` in Command Prompt or PowerShell.
 3) This will allow you to create the GitHub Codespaces based on the files from this repository:
     ```
@@ -216,7 +216,7 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro
 
 6\) Your VHDX file is located at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
-Push this VHDX file to your GitHub Codespaces using the [GitHub CLI](https://github.com/cli/cli/releases/download/v2.68.1/gh_2.68.1_windows_amd64.msi): `gh cs cp --expand data.vhdx remote:/workspaces/dind`
+Push this VHDX file to your GitHub Codespaces using the [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi): `gh codespace cp --expand data.vhdx remote:/workspaces/dind`
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` displays the progress bar.
