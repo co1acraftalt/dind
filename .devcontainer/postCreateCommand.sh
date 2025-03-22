@@ -85,7 +85,7 @@ echo "data.img" > /workspaces/$(basename $PWD)/windows/windows.boot
     echo "    cap_add:"
     echo "      - ALL"
     echo "    security_opt:"
-    echo "      - seccomp:unconfined"
+    echo "      - seccomp=unconfined"
     echo "    volumes:"
     echo "      - /workspaces/$(basename $PWD)/windows:/storage"
     echo "      - /tmp/$(basename $PWD)/windows:/storage2"
