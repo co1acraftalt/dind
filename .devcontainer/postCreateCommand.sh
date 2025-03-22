@@ -87,4 +87,4 @@ echo "data.img" > windows/windows.boot
     echo "      - /tmp/$(basename $PWD)/windows:/storage2"
     echo "    privileged: true"
     echo "    restart: always"
-} > windows.yaml
+} > windows/windows.yaml
