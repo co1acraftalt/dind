@@ -221,10 +221,10 @@ Push this VHDX file to your GitHub Codespaces using the [GitHub CLI](https://git
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` displays the progress bar.
 
-`7z a -mmt32 -mx9 -v2g data.7z data.vhdx`
+`7z a -mmt32 -mx9 -v1g data.7z data.vhdx`
 - `-mmt32` forces 7-Zip to use 32 cores.
 - `-mx9` forces 7-Zip to use ultra compression.
-- `-v2g` forces 7-Zip to split the `data.7z` file into 2 GB chunks.
+- `-v2g` forces 7-Zip to split the `data.7z` file into 1 GB chunks.
 
 ---
 
