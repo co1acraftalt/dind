@@ -1,5 +1,5 @@
 mv --force /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
-rm --recursive --force *
+rm --recursive --force /workspaces/$(basename $PWD)/*
 mv --force /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
 
 DEBIAN_FRONTEND=noninteractive apt-get install wget --no-install-recommends --yes
