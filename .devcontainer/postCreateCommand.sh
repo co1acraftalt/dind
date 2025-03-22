@@ -82,6 +82,8 @@ echo "data.img" > /workspaces/$(basename $PWD)/windows/windows.boot
     echo "      - 5900:5900/udp"
     echo "      - 8006:8006/tcp"
     echo "      - 8006:8006/udp"
+    echo "    cap_add:"
+    echo "      - ALL"
     echo "    volumes:"
     echo "      - /workspaces/$(basename $PWD)/windows:/storage"
     echo "      - /tmp/$(basename $PWD)/windows:/storage2"
