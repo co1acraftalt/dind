@@ -158,8 +158,8 @@ Create three registry entries at `HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig`:
 ---
 
 2\) In the Windows 11 Setup where it says `Select location to install Windows 11`:
-- uncheck `Hide drivers that aren't compatible with this computer's hardware`
 - click `Load Driver`
+- uncheck `Hide drivers that aren't compatible with this computer's hardware`
 - click `Browse`
 - select `CD Drive (E:) virtio-win-1.9.45`
 - install `vioscsi` from `E:\vioscsi\w11\amd64\vioscsi.inf`
