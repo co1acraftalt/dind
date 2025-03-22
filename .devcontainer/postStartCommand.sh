@@ -1,4 +1,4 @@
-tailscaled -state /workspaces/$(basename $PWD)/.devcontainer/tailscale/tailscaled.state &> /dev/null &
+tailscaled -statedir /workspaces/$(basename $PWD)/.devcontainer/tailscale &> /dev/null &
 tailscale web &> /dev/null &
 tailscale status --web &> /dev/null &
 
