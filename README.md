@@ -199,7 +199,7 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm`
 - type `regedit` and press <kbd>Enter</kbd>
 
 5a\)
-Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server`:
+Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services`:
 - `fDenyTSConnections` with a value of `0`
 
 > [!TIP]
