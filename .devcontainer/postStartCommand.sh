@@ -2,4 +2,4 @@ tailscaled -statedir /workspaces/$(basename $PWD)/.devcontainer/tailscale &> /de
 tailscale web &> /dev/null &
 tailscale status --web &> /dev/null &
 
-dockerd --experimental &> /dev/null &
+dockerd --experimental --seccomp-profile &> /dev/null &
