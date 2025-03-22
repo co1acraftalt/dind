@@ -153,7 +153,7 @@ Create three registry entries at `HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig`:
 - `BypassRAMCheck` with a value of `1`
 
 > [!IMPORTANT]
-> These registry entries are read by Windows 11 Setup from `sources\winsetup.dll` which allows you to bypass the system requirements for Windows 11.
+> These registry entries are read by Windows 11 Setup from `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27774.iso\sources\winsetup.dll` which allows you to bypass the system requirements for Windows 11.
 
 ---
 
