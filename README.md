@@ -137,7 +137,7 @@ Ngrok requires your bank details to allow TCP connections which is required for 
 
 - Hyper-V with Secure Boot, Trusted Platform Module (TPM), and Network Adapter (Ethernet) disabled.
 - `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27774.iso` from [Windows Insider Preview — ISOs](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) is mounted as a DVD Drive on Hyper-V.
-- `virtio-win-1.9.45.iso` from [CentOS Stream 10 — AppStream](https://github.com/ItzLevvie/artifacts/releases/download/latest/virtio-win-1.9.45.iso) is mounted as a DVD Drive on Hyper-V.
+- `virtio-win-1.9.45.iso` from [Red Hat Enterprise Linux — AppStream](https://github.com/ItzLevvie/artifacts/releases/download/latest/virtio-win-1.9.45.iso) is mounted as a DVD Drive on Hyper-V.
 
 ---
 
