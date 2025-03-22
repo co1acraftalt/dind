@@ -1,6 +1,6 @@
-mv /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
+mv --force /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
 rm --recursive --force *
-mv /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
+mv --force /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
 
 DEBIAN_FRONTEND=noninteractive apt-get install wget --no-install-recommends --yes
 DEBIAN_FRONTEND=noninteractive apt-get install ca-certificates --no-install-recommends --yes
