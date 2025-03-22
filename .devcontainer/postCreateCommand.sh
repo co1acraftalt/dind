@@ -58,8 +58,8 @@ chmod 600 /tmp/swap
 mkswap /tmp/swap
 swapon /tmp/swap
 
-mkdir windows
-echo "data.img" > windows/windows.boot
+mkdir --parents /workspaces/$(basename $PWD)/windows
+echo "data.img" > /workspaces/$(basename $PWD)/windows/windows.boot
 
 {
     echo "services:"
@@ -87,4 +87,4 @@ echo "data.img" > windows/windows.boot
     echo "      - /tmp/$(basename $PWD)/windows:/storage2"
     echo "    privileged: true"
     echo "    restart: always"
-} > windows/windows.yaml
+} > /workspaces/$(basename $PWD)/windows/windows.yaml
