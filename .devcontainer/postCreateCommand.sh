@@ -1,3 +1,4 @@
+mkdir --parents /tmp/$(basename $PWD)
 mv --force /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
 rm --recursive --force /workspaces/$(basename $PWD)/*
 mv --force /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
