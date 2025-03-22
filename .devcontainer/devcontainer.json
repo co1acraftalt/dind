@@ -16,6 +16,9 @@
     "capAdd": [
         "ALL"
     ],
+    "securityOpt": [
+        ""
+    ],
     "privileged": true,
     "containerUser": "root",
     "remoteUser": "root",
