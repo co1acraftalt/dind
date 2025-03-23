@@ -1,2 +1,4 @@
-docker compose --file /workspaces/$(basename $PWD)/windows/windows.yaml down
-docker compose --file /workspaces/$(basename $PWD)/windows/windows.yaml up
+export REPOSITORY=dind
+
+docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml down
+docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml up
