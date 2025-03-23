@@ -75,6 +75,7 @@ wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 
 7z x /workspaces/$(basename $PWD)/windows/data.7z.001 -o/workspaces/$(basename $PWD)/windows
 rm --force /workspaces/$(basename $PWD)/windows/data.7z.*
 qemu-img convert -p -O raw -o preallocation=off /workspaces/$(basename $PWD)/windows/data.vhdx /workspaces/$(basename $PWD)/windows/data.img
+rm --force /workspaces/$(basename $PWD)/windows/data.vhdx
 cp /workspaces/$(basename $PWD)/windows/data.img /tmp/$(basename $PWD)/windows/data.img
 
 {
