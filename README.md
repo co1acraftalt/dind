@@ -10,6 +10,12 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 > This repository should be used for testing purposes only. <br>
 > I am not responsible for any issues such as data loss.
 
+## Images
+
+![Image](https://github.com/user-attachments/assets/561bb50d-eee8-46cb-9614-8d5a16a9296c)
+
+![Image](https://github.com/user-attachments/assets/35a35fca-2e5e-4059-93f4-3f46b419b1f8)
+
 ## Usage
 
 ### Using the web version of GitHub (recommended)
