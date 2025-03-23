@@ -90,7 +90,7 @@ cp /workspaces/$(basename $PWD)/windows/data.img /tmp/$(basename $PWD)/windows/d
     echo "      DISK2_SIZE: $(df --human-readable --block-size G /tmp | grep '/tmp' | awk '{print $4}')"
     echo "      RAM_CHECK: N"
     echo "      MTU: 1486"
-    echo "      DISPLAY: vnc"
+    echo "      DISPLAY: web"
     echo "      DEBUG: Y"
     echo "    ports:"
     echo "      - 3389:3389/tcp"
