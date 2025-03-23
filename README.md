@@ -8,7 +8,7 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 
 > [!CAUTION]
 > This repository should be used for testing purposes only. <br>
-> I am not responsible for any data loss.
+> I am not responsible for any issues such as data loss.
 
 ## Usage
 
