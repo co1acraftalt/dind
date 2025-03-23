@@ -7,7 +7,7 @@ It installs Tailscale which allows you to Remote Desktop Protocol (RDP) into Win
 It is based on the [dockur/windows](https://github.com/dockur/windows) repository but contains customizations and optimizations for GitHub Codespaces.
 
 > [!CAUTION]
-> This repository should be used for testing purposes only.
+> This repository should be used for testing purposes only. <br>
 > I am not responsible for any data loss.
 
 ## Usage
