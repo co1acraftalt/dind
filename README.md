@@ -228,6 +228,15 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro
 
 ---
 
+6\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
+- press <kbd>Shift</kbd> + <kbd>F10</kbd>
+- type `powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61`
+
+> [!TIP]
+> This sets the power plan to Ultimate Performance.
+
+---
+
 6\) Your VHDX file is located at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
 Push this VHDX file to your GitHub Codespaces using the [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi): `gh codespace cp --expand data.vhdx remote:/workspaces/dind`
