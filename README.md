@@ -230,8 +230,8 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro
 
 6\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
 - press <kbd>Shift</kbd> + <kbd>F10</kbd>
-- type `powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61`
-- type `powercfg /change monitor-timeout-ac 0`
+- type `powercfg /setactive e9a42b02-d5df-448d-aa00-03f14749eb61` and press <kbd>Enter</kbd>
+- type `powercfg /change monitor-timeout-ac 0` and press <kbd>Enter</kbd>
 
 > [!TIP]
 > This sets the power plan to Ultimate Performance.
