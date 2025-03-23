@@ -1,6 +1,6 @@
 export REPOSITORY=dind
 
-sleep 120
+sleep 240
 
 tailscaled -statedir /workspaces/$REPOSITORY/.devcontainer/tailscale &> /dev/null &
 tailscale web &> /dev/null &
