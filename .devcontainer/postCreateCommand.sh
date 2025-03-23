@@ -4,6 +4,15 @@ rm --recursive --force /workspaces/$(basename $PWD)/.*
 rm --recursive --force /workspaces/$(basename $PWD)/*
 mv --force /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
 
+cp /workspaces/$(basename $PWD)/.devcontainer/start /usr/local/bin/start
+chmod +x /usr/local/bin/start
+cp /workspaces/$(basename $PWD)/.devcontainer/stop /usr/local/bin/stop
+chmod +x /usr/local/bin/stop
+cp /workspaces/$(basename $PWD)/.devcontainer/restart /usr/local/bin/restart
+chmod +x /usr/local/bin/restart
+cp /workspaces/$(basename $PWD)/.devcontainer/reset /usr/local/bin/reset
+chmod +x /usr/local/bin/reset
+
 DEBIAN_FRONTEND=noninteractive apt-get install wget --no-install-recommends --yes
 DEBIAN_FRONTEND=noninteractive apt-get install ca-certificates --no-install-recommends --yes
 DEBIAN_FRONTEND=noninteractive apt-get install iptables --no-install-recommends --yes
