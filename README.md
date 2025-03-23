@@ -14,7 +14,7 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 
 ![Image](https://github.com/user-attachments/assets/561bb50d-eee8-46cb-9614-8d5a16a9296c)
 
-![Image](https://github.com/user-attachments/assets/d882a508-1c40-4cd4-adf9-3ade4e7ad0d9)
+![Image](https://github.com/user-attachments/assets/595211a9-6105-4342-90a5-c68b038ac788)
 
 ## Usage
 
