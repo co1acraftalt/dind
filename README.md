@@ -250,5 +250,5 @@ GitHub Codespaces runs on Microsoft Azure which allows you to activate Windows 1
 - type `cscript //nologo slmgr.vbs /dlv` and press <kbd>Enter</kbd>
 
 > [!TIP]
-> This allows you to activate Windows 11 for free using the KMS server from Azure Virtual Desktop (AVD) and Windows 365. <br>
+> This allows you to activate Windows 11 for free using the KMS server from Azure Virtual Desktop (AVD), Microsoft Dev Box, and Windows 365. <br>
 > This is because the KMS server checks if the GitHub Codespaces' IP address comes from Microsoft Corporation (AS8075).
