@@ -1,16 +1,18 @@
-mkdir --parents /tmp/$(basename $PWD)/windows
-mv --force /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
-rm --recursive --force /workspaces/$(basename $PWD)/.*
-rm --recursive --force /workspaces/$(basename $PWD)/*
-mv --force /tmp/$(basename $PWD)/.devcontainer /workspaces/$(basename $PWD)/.devcontainer
+export REPOSITORY=dind
 
-cp /workspaces/$(basename $PWD)/.devcontainer/start /usr/local/bin/start
+mkdir --parents /tmp/$REPOSITORY/windows
+mv --force /workspaces/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
+rm --recursive --force /workspaces/$REPOSITORY/.*
+rm --recursive --force /workspaces/$REPOSITORY/*
+mv --force /tmp/$REPOSITORY/.devcontainer /workspaces/$REPOSITORY/.devcontainer
+
+cp /workspaces/$REPOSITORY/.devcontainer/start /usr/local/bin/start
 chmod +x /usr/local/bin/start
-cp /workspaces/$(basename $PWD)/.devcontainer/stop /usr/local/bin/stop
+cp /workspaces/$REPOSITORY/.devcontainer/stop /usr/local/bin/stop
 chmod +x /usr/local/bin/stop
-cp /workspaces/$(basename $PWD)/.devcontainer/restart /usr/local/bin/restart
+cp /workspaces/$REPOSITORY/.devcontainer/restart /usr/local/bin/restart
 chmod +x /usr/local/bin/restart
-cp /workspaces/$(basename $PWD)/.devcontainer/reset /usr/local/bin/reset
+cp /workspaces/$REPOSITORY/.devcontainer/reset /usr/local/bin/reset
 chmod +x /usr/local/bin/reset
 
 DEBIAN_FRONTEND=noninteractive apt-get install wget --no-install-recommends --yes
@@ -73,19 +75,19 @@ chmod 600 /tmp/swap
 mkswap /tmp/swap
 swapon /tmp/swap
 
-mkdir --parents /workspaces/$(basename $PWD)/windows
-echo "data.img" > /workspaces/$(basename $PWD)/windows/windows.boot
+mkdir --parents /workspaces/$REPOSITORY/windows
+echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
 
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.001 --output-document /workspaces/$(basename $PWD)/windows/data.7z.001
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.002 --output-document /workspaces/$(basename $PWD)/windows/data.7z.002
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 --output-document /workspaces/$(basename $PWD)/windows/data.7z.003
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /workspaces/$(basename $PWD)/windows/data.7z.004
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.001 --output-document /workspaces/$REPOSITORY/windows/data.7z.001
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.002 --output-document /workspaces/$REPOSITORY/windows/data.7z.002
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 --output-document /workspaces/$REPOSITORY/windows/data.7z.003
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /workspaces/$REPOSITORY/windows/data.7z.004
 
-7z x /workspaces/$(basename $PWD)/windows/data.7z.001 -o/workspaces/$(basename $PWD)/windows
-rm --force /workspaces/$(basename $PWD)/windows/data.7z.*
-qemu-img convert -p -O raw -o preallocation=off /workspaces/$(basename $PWD)/windows/data.vhdx /workspaces/$(basename $PWD)/windows/data.img
-rm --force /workspaces/$(basename $PWD)/windows/data.vhdx
-cp /workspaces/$(basename $PWD)/windows/data.img /tmp/$(basename $PWD)/windows/data.img
+7z x /workspaces/$REPOSITORY/windows/data.7z.001 -o/workspaces/$REPOSITORY/windows
+rm --force /workspaces/$REPOSITORY/windows/data.7z.*
+qemu-img convert -p -O raw -o preallocation=off /workspaces/$REPOSITORY/windows/data.vhdx /workspaces/$REPOSITORY/windows/data.img
+rm --force /workspaces/$REPOSITORY/windows/data.vhdx
+cp /workspaces/$REPOSITORY/windows/data.img /tmp/$REPOSITORY/windows/data.img
 
 {
     echo "services:"
@@ -113,8 +115,8 @@ cp /workspaces/$(basename $PWD)/windows/data.img /tmp/$(basename $PWD)/windows/d
     echo "    security_opt:"
     echo "      - seccomp=unconfined"
     echo "    volumes:"
-    echo "      - /workspaces/$(basename $PWD)/windows:/storage"
-    echo "      - /tmp/$(basename $PWD)/windows:/storage2"
+    echo "      - /workspaces/$REPOSITORY/windows:/storage"
+    echo "      - /tmp/$REPOSITORY/windows:/storage2"
     echo "    privileged: true"
     echo "    restart: always"
-} > /workspaces/$(basename $PWD)/windows/windows.yaml
+} > /workspaces/$REPOSITORY/windows/windows.yaml
