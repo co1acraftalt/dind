@@ -72,6 +72,8 @@ wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.002 
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 --output-document /workspaces/$(basename $PWD)/windows/data.7z.003
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /workspaces/$(basename $PWD)/windows/data.7z.004
 
+7z x /workspaces/$(basename $PWD)/windows/data.7z.001 -o/workspaces/$(basename $PWD)/windows/data.vhdx
+
 {
     echo "services:"
     echo "  windows:"
