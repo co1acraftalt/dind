@@ -1,4 +1,4 @@
-mkdir --parents /tmp/$(basename $PWD)
+mkdir --parents /tmp/$(basename $PWD)/windows
 mv --force /workspaces/$(basename $PWD)/.devcontainer /tmp/$(basename $PWD)/.devcontainer
 rm --recursive --force /workspaces/$(basename $PWD)/.*
 rm --recursive --force /workspaces/$(basename $PWD)/*
@@ -73,6 +73,8 @@ wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /workspaces/$(basename $PWD)/windows/data.7z.004
 
 7z x /workspaces/$(basename $PWD)/windows/data.7z.001 -o/workspaces/$(basename $PWD)/windows
+qemu-img convert -p -O raw -o preallocation=off /workspaces/$(basename $PWD)/windows/data.vhdx /workspaces/$(basename $PWD)/windows/data.img
+cp /workspaces/$(basename $PWD)/windows/data.img /tmp/$(basename $PWD)/windows/data.img
 
 {
     echo "services:"
