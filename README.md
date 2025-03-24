@@ -212,13 +212,13 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm`
 - type `netsh advfirewall set allprofiles state off` and press <kbd>Enter</kbd>
 - type `regedit` and press <kbd>Enter</kbd>
 
-5a\) Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services`:
+Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services`:
 - `fDenyTSConnections` with a value of `0`
 
 > [!TIP]
 > This enables Remote Desktop Protocol (RDP).
 
-5b\) Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa`:
+Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa`:
 - `LimitBlankPasswordUse` with a value of `0`
 
 > [!TIP]
