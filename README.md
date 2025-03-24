@@ -257,12 +257,16 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servic
 
 Push the VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi): `gh codespace cp --expand data.vhdx remote:/workspaces/dind`
 
+---
 
 9\) Your VHDX file should be converted to an IMG file:
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` displays the progress bar.
 
+---
+
+10\)
 `7z a -mmt32 -mx9 -v1g data.7z data.vhdx`
 - `-mmt32` forces 7-Zip to use 32 cores.
 - `-mx9` forces 7-Zip to use ultra compression.
