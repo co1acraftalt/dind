@@ -240,7 +240,16 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro
 
 ---
 
-7\) Your VHDX file is located at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
+7\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
+- press <kbd>Shift</kbd> + <kbd>F10</kbd>
+- type `regedit` and press <kbd>Enter</kbd>
+
+Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation`:
+- `AllowInsecureGuestAuth` with a value of `1`
+
+---
+
+8\) Your VHDX file is located at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
 Push this VHDX file to your GitHub Codespaces using the [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi): `gh codespace cp --expand data.vhdx remote:/workspaces/dind`
 
