@@ -17,17 +17,6 @@ chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart
 chmod +x /usr/local/bin/reset
 
-DEBIAN_FRONTEND=noninteractive apt-get install wget --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install ca-certificates --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install iptables --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install qemu-utils --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install p7zip-full --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install openssh-server --no-install-recommends --yes
-DEBIAN_FRONTEND=noninteractive apt-get install htop --no-install-recommends --yes
-
-update-alternatives --set iptables /usr/sbin/iptables-legacy
-update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
-
 # https://www.speedtest.net/apps/cli
 wget https://github.com/ItzLevvie/artifacts/releases/download/latest/speedtest --output-document /usr/local/bin/speedtest
 chmod +x /usr/local/bin/speedtest
