@@ -117,6 +117,7 @@ cp /workspaces/$REPOSITORY/windows/data.img /tmp/$REPOSITORY/windows/data.img
     echo "    volumes:"
     echo "      - /workspaces/$REPOSITORY/windows:/storage"
     echo "      - /tmp/$REPOSITORY/windows:/storage2"
+    echo "      - /workspaces/$REPOSITORY:/data"
     echo "    privileged: true"
     echo "    restart: always"
 } > /workspaces/$REPOSITORY/windows/windows.yaml
