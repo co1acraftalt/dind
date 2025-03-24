@@ -262,7 +262,8 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 9\) Your VHDX file will have to be converted to an IMG file.
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
-- `-p` displays the progress bar.
+- `-p` forces QEMU to display the progress bar.
+- `-O raw` forces QEMU to convert to an IMG file.
 
 ---
 
