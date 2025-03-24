@@ -250,6 +250,9 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Win
 Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters`:
 - `RequireSecuritySignature` with a value of `0`
 
+> [!TIP]
+> This allows you to access SMB shares.
+
 ---
 
 8\) Your VHDX file is located at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
