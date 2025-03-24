@@ -123,3 +123,5 @@ cp /workspaces/$REPOSITORY/windows/data.img /tmp/$REPOSITORY/windows/data.img
     echo "    privileged: true"
     echo "    restart: always"
 } > /workspaces/$REPOSITORY/windows/windows.yaml
+
+sleep 240
