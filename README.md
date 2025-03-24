@@ -259,7 +259,7 @@ Send the VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.c
 
 ---
 
-9\) Your VHDX file should be converted to an IMG file:
+9\) Your VHDX file should be converted to an IMG file.
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` displays the progress bar.
