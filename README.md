@@ -145,7 +145,7 @@ Ngrok requires your bank details to allow TCP connections which is required for 
 
 ---
 
-### What are the steps to create system images?
+### What are the steps to create my own system images?
 
 #### Requirements
 
