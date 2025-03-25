@@ -51,7 +51,7 @@ Click on the button below:
         "type": "Organization"
       },
       "createdAt": "2025-03-25T18:29:21+00:00",
-      "devcontainerPath": "",
+      "devcontainerPath": ".devcontainer/devcontainer.json",
       "displayName": "congenial goldfish",
       "environmentId": "b1f7729a-c417-47cd-a4ce-811cf3952b8c",
       "idleTimeoutMinutes": 240,
