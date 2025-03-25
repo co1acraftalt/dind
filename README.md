@@ -38,27 +38,30 @@ Click on the button below:
     ```
     C:\Users\codespaces>gh codespace create --repo ItzLevvie/dind --machine xLargePremiumLinux --idle-timeout 4h --retention-period 720h
       ✓ Codespaces usage for this repository is paid for by microsoft
-    stunning-cod-x55r6ppwq45fvx6q
+    congenial-goldfish-5ggv6rrqpx7c7pj
     ```
-4) Type `gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,repository,retentionExpiresAt,retentionPeriodDays,state` in Command Prompt or PowerShell.
+4) Type `gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,environmentId,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,prebuild,repository,retentionExpiresAt,retentionPeriodDays,state` in Command Prompt or PowerShell.
 5) This will allow you to see the status of your GitHub Codespaces:
     ```
-    C:\Users\codespaces>gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,repository,retentionExpiresAt,retentionPeriodDays,state
+    C:\Users\codespaces>gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,environmentId,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,prebuild,repository,retentionExpiresAt,retentionPeriodDays,state
+    ? Choose codespace: ItzLevvie/dind [main]: congenial goldfish
     {
       "billableOwner": {
         "login": "microsoft",
         "type": "Organization"
       },
-      "createdAt": "2025-03-18T20:46:52+00:00",
+      "createdAt": "2025-03-25T18:29:21+00:00",
       "devcontainerPath": "",
-      "displayName": "expert dollop",
+      "displayName": "congenial goldfish",
+      "environmentId": "b1f7729a-c417-47cd-a4ce-811cf3952b8c",
       "idleTimeoutMinutes": 240,
-      "lastUsedAt": "2025-03-18T20:46:52+00:00",
+      "lastUsedAt": "2025-03-25T18:29:21+00:00",
       "location": "UkSouth",
       "machineDisplayName": "32 cores, 128 GB RAM, 128 GB storage",
       "machineName": "xLargePremiumLinux",
-      "name": "expert-dollop-jjjr6775w973gr7",
+      "name": "congenial-goldfish-5ggv6rrqpx7c7pj",
       "owner": "ItzLevvie",
+      "prebuild": false,
       "repository": "ItzLevvie/dind",
       "retentionExpiresAt": "",
       "retentionPeriodDays": 30,
