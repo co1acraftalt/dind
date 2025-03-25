@@ -8,10 +8,10 @@ rm --recursive --force /workspaces/$REPOSITORY/.*
 rm --recursive --force /workspaces/$REPOSITORY/*
 mv --force /tmp/$REPOSITORY/.devcontainer /workspaces/$REPOSITORY/.devcontainer
 
-cp /workspaces/$REPOSITORY/.devcontainer/start /usr/local/bin/start
-cp /workspaces/$REPOSITORY/.devcontainer/stop /usr/local/bin/stop
-cp /workspaces/$REPOSITORY/.devcontainer/restart /usr/local/bin/restart
-cp /workspaces/$REPOSITORY/.devcontainer/reset /usr/local/bin/reset
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/start /usr/local/bin/start
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/stop /usr/local/bin/stop
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/restart /usr/local/bin/restart
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/reset /usr/local/bin/reset
 chmod +x /usr/local/bin/start
 chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart
