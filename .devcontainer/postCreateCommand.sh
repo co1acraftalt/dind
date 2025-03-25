@@ -69,15 +69,15 @@ swapon /tmp/swap
 mkdir --parents /workspaces/$REPOSITORY/windows
 echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
 
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.001 --output-document /workspaces/$REPOSITORY/windows/data.7z.001
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.002 --output-document /workspaces/$REPOSITORY/windows/data.7z.002
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 --output-document /workspaces/$REPOSITORY/windows/data.7z.003
-wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /workspaces/$REPOSITORY/windows/data.7z.004
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.001 --output-document /tmp/$REPOSITORY/windows/data.7z.001
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.002 --output-document /tmp/$REPOSITORY/windows/data.7z.002
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.003 --output-document /tmp/$REPOSITORY/windows/data.7z.003
+wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 --output-document /tmp/$REPOSITORY/windows/data.7z.004
 
-7z x /workspaces/$REPOSITORY/windows/data.7z.001 -o/workspaces/$REPOSITORY/windows
-rm --force /workspaces/$REPOSITORY/windows/data.7z.*
-qemu-img convert -p -O raw -o preallocation=off /workspaces/$REPOSITORY/windows/data.vhdx /workspaces/$REPOSITORY/windows/data.img
-rm --force /workspaces/$REPOSITORY/windows/data.vhdx
+7z x /tmp/$REPOSITORY/windows/data.7z.001 -o/tmp/$REPOSITORY/windows/
+rm --force /tmp/$REPOSITORY/windows/data.7z.*
+qemu-img convert -p -O raw -o preallocation=off /tmp/$REPOSITORY/windows/data.vhdx /workspaces/$REPOSITORY/windows/data.img
+rm --force /tmp/$REPOSITORY/windows/data.vhdx
 cp /workspaces/$REPOSITORY/windows/data.img /tmp/$REPOSITORY/windows/data.img
 
 {
