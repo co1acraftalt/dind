@@ -33,12 +33,12 @@ Click on the button below:
 ### Using the CLI version of GitHub (alternative)
 
 1) Install [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi)
-2) Type `gh codespace create --repo ItzLevvie/dind --machine standardLinux32gb --idle-timeout 4h` in Command Prompt or PowerShell.
+2) Type `gh codespace create --repo ItzLevvie/dind --machine standardLinux32gb --idle-timeout 4h --retention-period 720h` in Command Prompt or PowerShell.
 3) This will allow you to create the GitHub Codespaces based on the files from this repository:
     ```
-    C:\Users\codespaces>gh codespace create --repo ItzLevvie/dind --machine xLargePremiumLinux --idle-timeout 4h
+    C:\Users\codespaces>gh codespace create --repo ItzLevvie/dind --machine xLargePremiumLinux --idle-timeout 4h --retention-period 720h
       ✓ Codespaces usage for this repository is paid for by microsoft
-    expert-dollop-jjjr6775w973gr7
+    stunning-cod-x55r6ppwq45fvx6q
     ```
 4) Type `gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,repository,retentionExpiresAt,retentionPeriodDays,state` in Command Prompt or PowerShell.
 5) This will allow you to see the status of your GitHub Codespaces:
