@@ -1,11 +1,12 @@
 export REPOSITORY=dind
 
-rm --recursive --force /tmp/$REPOSITORY/windows/*
 mkdir --parents /tmp/$REPOSITORY/windows
+rm --recursive --force /tmp/$REPOSITORY/windows/*
 
 mv --force /workspaces/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
-rm --recursive --force /workspaces/$REPOSITORY/.*
-rm --recursive --force /workspaces/$REPOSITORY/*
+cd /workspaces
+rm --recursive --force /workspaces/$REPOSITORY
+mkdir --parents /workspaces/$REPOSITORY
 mv --force /tmp/$REPOSITORY/.devcontainer /workspaces/$REPOSITORY/.devcontainer
 
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/start /usr/local/bin/start
@@ -16,49 +17,6 @@ chmod +x /usr/local/bin/start
 chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart
 chmod +x /usr/local/bin/reset
-
-# https://www.speedtest.net/apps/cli
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/speedtest --output-document /usr/local/bin/speedtest
-chmod +x /usr/local/bin/speedtest
-
-# https://github.com/fastfetch-cli/fastfetch/actions/workflows/ci.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/fastfetch --output-document /usr/local/bin/fastfetch
-chmod +x /usr/local/bin/fastfetch
-
-# https://pkgs.tailscale.com/unstable
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/tailscale --output-document /usr/local/bin/tailscale
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/tailscaled --output-document /usr/local/bin/tailscaled
-chmod +x /usr/local/bin/tailscale
-chmod +x /usr/local/bin/tailscaled
-
-# https://github.com/moby/moby/actions/workflows/buildkit.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-proxy --output-document /usr/local/bin/docker-proxy
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/dockerd --output-document /usr/local/bin/dockerd
-chmod +x /usr/local/bin/docker-proxy
-chmod +x /usr/local/bin/dockerd
-
-# https://github.com/docker/cli/actions/workflows/build.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-linux-amd64 --output-document /usr/local/bin/docker
-chmod +x /usr/local/bin/docker
-
-# https://github.com/containerd/containerd/actions/workflows/release.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/containerd-shim-runc-v2 --output-document /usr/local/bin/containerd-shim-runc-v2
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/containerd --output-document /usr/local/bin/containerd
-chmod +x /usr/local/bin/containerd-shim-runc-v2
-chmod +x /usr/local/bin/containerd
-
-# https://github.com/opencontainers/runc/actions/workflows/validate.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/runc.amd64 --output-document /usr/local/bin/runc
-chmod +x /usr/local/bin/runc
-
-# https://github.com/docker/compose/actions/workflows/ci.yml
-mkdir --parents /usr/local/lib/docker/cli-plugins
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-compose-linux-x86_64 --output-document /usr/local/lib/docker/cli-plugins/docker-compose
-chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
-
-# https://github.com/docker/buildx/actions/workflows/build.yml
-wget https://github.com/ItzLevvie/artifacts/releases/download/latest/buildx.linux-amd64 --output-document /usr/local/lib/docker/cli-plugins/docker-buildx
-chmod +x /usr/local/lib/docker/cli-plugins/docker-buildx
 
 swapoff /tmp/swap
 fallocate --length 16G /tmp/swap
