@@ -70,4 +70,4 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "    restart: always"
 } > /workspaces/$REPOSITORY/windows/windows.yaml
 
-sleep 60
+sleep 120
