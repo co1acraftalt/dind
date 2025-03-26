@@ -34,9 +34,9 @@ wget https://github.com/ItzLevvie/artifacts/releases/download/27774/data.7z.004 
 
 7z x /tmp/$REPOSITORY/windows/data.7z.001 -o/tmp/$REPOSITORY/windows
 rm --force /tmp/$REPOSITORY/windows/data.7z.*
-qemu-img convert -p -O raw -o preallocation=off /tmp/$REPOSITORY/windows/data.vhdx /workspaces/$REPOSITORY/windows/data.img
+qemu-img convert -p -O raw -o preallocation=off /tmp/$REPOSITORY/windows/data.vhdx /tmp/$REPOSITORY/windows/data.img
 rm --force /tmp/$REPOSITORY/windows/data.vhdx
-cp /workspaces/$REPOSITORY/windows/data.img /tmp/$REPOSITORY/windows/data.img
+cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
 
 {
     echo "services:"
