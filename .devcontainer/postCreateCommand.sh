@@ -4,7 +4,6 @@ mkdir --parents /tmp/$REPOSITORY/windows
 rm --recursive --force /tmp/$REPOSITORY/windows/*
 
 mv --force /workspaces/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
-cd /workspaces
 rm --recursive --force /workspaces/$REPOSITORY
 mkdir --parents /workspaces/$REPOSITORY
 mv --force /tmp/$REPOSITORY/.devcontainer /workspaces/$REPOSITORY/.devcontainer
