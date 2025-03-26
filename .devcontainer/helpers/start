@@ -1,3 +1,5 @@
 export REPOSITORY=dind
 
+dockerd --seccomp-profile unconfined --experimental &> /dev/null &
+
 docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml up
