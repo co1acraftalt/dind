@@ -83,7 +83,7 @@ Click on the button below:
 
 This repository contains a few helper scripts to get you started[^3].
 
-[^3]: These helper scripts are located in [here](https://github.com/ItzLevvie/dind/tree/main/.devcontainer/helpers).
+[^3]: These helper scripts are located [here](https://github.com/ItzLevvie/dind/tree/main/.devcontainer/helpers).
 
 | Command | Description |
 | :-: | :-: |
