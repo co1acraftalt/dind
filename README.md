@@ -28,7 +28,8 @@ Click on the button below:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ItzLevvie/dind?machine=standardLinux32gb)
 
-See [Commands](#commands) for a full list of available commands.
+> [!NOTE]
+> See [Commands](#commands) for a full list of available commands.
 
 ---
 
@@ -73,7 +74,8 @@ See [Commands](#commands) for a full list of available commands.
 6) When it says `"state": "Available"` — you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
     ![Image](https://github.com/user-attachments/assets/42406f1f-75cf-4cff-b1ad-66413ba93d67)
 
-See [Commands](#commands) for a full list of available commands.
+> [!NOTE]
+> See [Commands](#commands) for a full list of available commands.
 
 ---
 
