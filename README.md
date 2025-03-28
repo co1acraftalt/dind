@@ -28,6 +28,8 @@ Click on the button below:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ItzLevvie/dind?machine=standardLinux32gb)
 
+See [Commands](#commands) for a full list of available commands.
+
 ---
 
 ### Using the CLI version of GitHub (alternative)
@@ -71,14 +73,16 @@ Click on the button below:
 6) When it says `"state": "Available"` — you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
     ![Image](https://github.com/user-attachments/assets/42406f1f-75cf-4cff-b1ad-66413ba93d67)
 
+See [Commands](#commands) for a full list of available commands.
+
 ### Commands
 
 | Command | Description |
 | :-: | :-: |
-| `start` | This starts Windows 11 |
-| `stop` | This stops Windows 11 |
-| `restarts` | This restarts Windows 11 |
-| `restarts` | This resets Windows 11 |
+| `start` | This command starts Windows 11 |
+| `stop` | This command stops Windows 11 |
+| `restarts` | This command restarts Windows 11 |
+| `restarts` | This command resets Windows 11 |
 
 ## Frequently Asked Questions (FAQ)
 
