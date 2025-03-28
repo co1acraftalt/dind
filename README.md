@@ -85,8 +85,8 @@ This repository contains a few helper scripts to get you started.
 | :-: | :-: |
 | `start` | This command starts Windows 11 |
 | `stop` | This command stops Windows 11 |
-| `restarts` | This command restarts Windows 11 |
-| `restarts` | This command resets Windows 11 to its factory settings |
+| `restart` | This command restarts Windows 11 |
+| `reset` | This command resets Windows 11 to its factory settings |
 
 ## Frequently Asked Questions (FAQ)
 
