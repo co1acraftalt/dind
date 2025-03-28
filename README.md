@@ -77,12 +77,14 @@ See [Commands](#commands) for a full list of available commands.
 
 ### Commands
 
+This repository contains a few helper scripts to get you started.
+
 | Command | Description |
 | :-: | :-: |
 | `start` | This command starts Windows 11 |
 | `stop` | This command stops Windows 11 |
 | `restarts` | This command restarts Windows 11 |
-| `restarts` | This command resets Windows 11 |
+| `restarts` | This command resets Windows 11 to its factory settings |
 
 ## Frequently Asked Questions (FAQ)
 
