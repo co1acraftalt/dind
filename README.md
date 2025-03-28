@@ -75,6 +75,8 @@ See [Commands](#commands) for a full list of available commands.
 
 See [Commands](#commands) for a full list of available commands.
 
+---
+
 ### Commands
 
 This repository contains a few helper scripts to get you started.
