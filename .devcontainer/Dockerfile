@@ -20,7 +20,7 @@ RUN update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/speedtest --output-document /usr/local/bin/speedtest
 RUN chmod +x /usr/local/bin/speedtest
 
-# https://github.com/fastfetch-cli/fastfetch/actions/workflows/ci.yml
+# https://github.com/fastfetch-cli/fastfetch/actions/workflows/ci.yml?query=event%3Apush+is%3Asuccess+branch%3Adev
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/fastfetch --output-document /usr/local/bin/fastfetch
 RUN chmod +x /usr/local/bin/fastfetch
 
@@ -36,11 +36,11 @@ RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/dockerd
 RUN chmod +x /usr/local/bin/docker-proxy
 RUN chmod +x /usr/local/bin/dockerd
 
-# https://github.com/docker/cli/actions/workflows/build.yml
+# https://github.com/docker/cli/actions/workflows/build.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-linux-amd64 --output-document /usr/local/bin/docker
 RUN chmod +x /usr/local/bin/docker
 
-# https://github.com/containerd/containerd/actions/workflows/release.yml
+# https://github.com/containerd/containerd/actions/workflows/release.yml?query=event%3Apush+is%3Asuccess+branch%3Amain
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/containerd-shim-runc-v2 --output-document /usr/local/bin/containerd-shim-runc-v2
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/containerd --output-document /usr/local/bin/containerd
 RUN chmod +x /usr/local/bin/containerd-shim-runc-v2
