@@ -46,7 +46,7 @@ RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/contain
 RUN chmod +x /usr/local/bin/containerd-shim-runc-v2
 RUN chmod +x /usr/local/bin/containerd
 
-# https://github.com/opencontainers/runc/actions/workflows/validate.yml
+# https://github.com/opencontainers/runc/actions/workflows/validate.yml?query=event%3Apush+is%3Asuccess+branch%3Amain
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/runc.amd64 --output-document /usr/local/bin/runc
 RUN chmod +x /usr/local/bin/runc
 
