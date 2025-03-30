@@ -12,10 +12,12 @@ cp /workspaces/$REPOSITORY/.devcontainer/helpers/start /usr/local/bin/start
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/stop /usr/local/bin/stop
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/restart /usr/local/bin/restart
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/reset /usr/local/bin/reset
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/rebuild /usr/local/bin/rebuild
 chmod +x /usr/local/bin/start
 chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart
 chmod +x /usr/local/bin/reset
+chmod +x /usr/local/bin/rebuild
 
 swapoff /tmp/swap
 fallocate --length 16G /tmp/swap
