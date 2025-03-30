@@ -60,3 +60,5 @@ RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/buildx.
 RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-buildx
 
 # https://github.com/cli/cli/releases/latest
+RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/gh --output-document /usr/local/bin/gh
+RUN chmod +x /usr/local/bin/gh
