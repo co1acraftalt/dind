@@ -58,3 +58,5 @@ RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 # https://github.com/docker/buildx/actions/workflows/build.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/buildx.linux-amd64 --output-document /usr/local/lib/docker/cli-plugins/docker-buildx
 RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-buildx
+
+# https://github.com/cli/cli/releases/latest
