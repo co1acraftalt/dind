@@ -30,7 +30,7 @@ RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/tailsca
 RUN chmod +x /usr/local/bin/tailscale
 RUN chmod +x /usr/local/bin/tailscaled
 
-# https://github.com/moby/moby/actions/workflows/buildkit.yml
+# https://github.com/moby/moby/actions/workflows/buildkit.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-proxy --output-document /usr/local/bin/docker-proxy
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/dockerd --output-document /usr/local/bin/dockerd
 RUN chmod +x /usr/local/bin/docker-proxy
