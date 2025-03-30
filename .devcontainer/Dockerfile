@@ -50,11 +50,11 @@ RUN chmod +x /usr/local/bin/containerd
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/runc.amd64 --output-document /usr/local/bin/runc
 RUN chmod +x /usr/local/bin/runc
 
-# https://github.com/docker/compose/actions/workflows/ci.yml
+# https://github.com/docker/compose/actions/workflows/ci.yml?query=event%3Apush+is%3Asuccess+branch%3Amain
 RUN mkdir --parents /usr/local/lib/docker/cli-plugins
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/docker-compose-linux-x86_64 --output-document /usr/local/lib/docker/cli-plugins/docker-compose
 RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
-# https://github.com/docker/buildx/actions/workflows/build.yml
+# https://github.com/docker/buildx/actions/workflows/build.yml?query=event%3Apush+is%3Asuccess+branch%3Amaster
 RUN wget https://github.com/ItzLevvie/artifacts/releases/download/latest/buildx.linux-amd64 --output-document /usr/local/lib/docker/cli-plugins/docker-buildx
 RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-buildx
