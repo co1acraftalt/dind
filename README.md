@@ -91,6 +91,7 @@ This repository contains a few helper scripts to get you started[^3].
 | `stop` | This command stops Windows 11 |
 | `restart` | This command restarts Windows 11 |
 | `reset` | This command resets Windows 11 to its factory settings |
+| `rebuild` | This command does a full rebuild of your GitHub Codespaces |
 
 ## Frequently Asked Questions (FAQ)
 
