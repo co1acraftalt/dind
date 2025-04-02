@@ -123,7 +123,7 @@ Below are the available specifications:
 
 | Machine Type | Cores | RAM | Storage <br> (`/workspaces`) | Storage <br> (`/tmp`) | Price |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| basicLinux32gb | 2 cores | 8 GB | 32 GB | | $0.18 per hour |
+| basicLinux32gb | 2 cores | 8 GB | 32 GB | 44 GB | $0.18 per hour |
 | standardLinux32gb | 4 cores | 16 GB | 32 GB | 118 GB | $0.36 per hour |
 | premiumLinux[^1] | 8 cores | 32 GB | 64 GB | 265 GB | $0.72 per hour |
 | largePremiumLinux[^1] | 16 cores | 64 GB | 128 GB | 560 GB | $1.44 per hour |
