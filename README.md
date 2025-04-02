@@ -36,10 +36,10 @@ Click on the button below:
 ### Using the CLI version of GitHub (alternative)
 
 1) Install [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi)
-2) Type `gh codespace create --repo ItzLevvie/dind --machine standardLinux32gb --idle-timeout 4h --retention-period 720h` in Command Prompt or PowerShell.
+2) Type `gh codespace create --idle-timeout 4h --retention-period 720h --repo ItzLevvie/dind --machine standardLinux32gb` in Command Prompt or PowerShell.
 3) This will allow you to create the GitHub Codespaces based on the files from this repository:
     ```
-    C:\Users\codespaces>gh codespace create --repo ItzLevvie/dind --machine xLargePremiumLinux --idle-timeout 4h --retention-period 720h
+    C:\Users\codespaces>gh codespace create --idle-timeout 4h --retention-period 720h --repo ItzLevvie/dind --machine xLargePremiumLinux
       ✓ Codespaces usage for this repository is paid for by microsoft
     congenial-goldfish-5ggv6rrqpx7c7pj
     ```
