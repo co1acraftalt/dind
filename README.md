@@ -121,13 +121,13 @@ Previously, GitHub Codespaces used [Intel® Xeon® Platinum 8168](https://azure.
 
 Below are the available specifications:
 
-| Machine Type | Cores | RAM | Storage | Price |
-| :-: | :-: | :-: | :-: | :-: |
+| Machine Type | Cores | RAM | Storage (/workspaces) | Storage (/tmp) | Price |
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | basicLinux32gb | 2 cores | 8 GB | 32 GB | $0.18 per hour |
 | standardLinux32gb | 4 cores | 16 GB | 32 GB | $0.36 per hour |
 | premiumLinux[^1] | 8 cores | 32 GB | 64 GB | $0.72 per hour |
 | largePremiumLinux[^1] | 16 cores | 64 GB | 128 GB | $1.44 per hour |
-| xLargePremiumLinux[^1][^2] | 32 cores | 128 GB | 128 GB | $2.88 per hour |
+| xLargePremiumLinux[^1][^2] | 32 cores | 128 GB | 128 GB | 1.2 TB | $2.88 per hour |
 
 [^1]: Contact [GitHub Support](https://support.github.com/) to access these machine types.
 [^2]: This machine type is not available as of February 2025.
