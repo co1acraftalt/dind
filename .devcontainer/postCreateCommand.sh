@@ -78,3 +78,5 @@ for ((i = 180; i >= 0; i--)); do
     echo "Your GitHub Codespaces will start in $i seconds."
     sleep 1
 done
+
+echo ""
