@@ -278,13 +278,22 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servic
 
 ---
 
-8\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
+8\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
+- press <kbd>Shift</kbd> + <kbd>F10</kbd>
+- type `regedit` and press <kbd>Enter</kbd>
+
+Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE`:
+- `BypassNRO` with a value of `1`
+
+---
+
+9\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
 You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_windows_amd64.msi): `gh codespace cp --expand data.vhdx remote:/workspaces/dind`
 
 ---
 
-9\) Your VHDX file will have to be converted to an IMG file.
+10\) Your VHDX file will have to be converted to an IMG file.
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` forces QEMU to display the progress bar.
@@ -292,7 +301,7 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 
 ---
 
-10\)
+11\)
 
 `7z a -mmt32 -mx9 -v1g data.7z data.vhdx`
 - `-mmt32` forces 7-Zip to use 32 cores.
