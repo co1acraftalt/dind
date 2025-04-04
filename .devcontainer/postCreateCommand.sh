@@ -19,12 +19,6 @@ chmod +x /usr/local/bin/restart
 chmod +x /usr/local/bin/reset
 chmod +x /usr/local/bin/rebuild
 
-swapoff /tmp/swap
-fallocate --length 16G /tmp/swap
-chmod 600 /tmp/swap
-mkswap /tmp/swap
-swapon /tmp/swap
-
 mkdir --parents /workspaces/$REPOSITORY/windows
 echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
 
