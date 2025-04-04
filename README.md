@@ -285,6 +285,9 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servic
 Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE`:
 - `BypassNRO` with a value of `1`
 
+> [!TIP]
+> This allows you to create an offline account without an internet connection.
+
 ---
 
 9\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
