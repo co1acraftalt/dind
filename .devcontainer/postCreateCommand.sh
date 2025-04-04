@@ -72,4 +72,8 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "    restart: always"
 } > /workspaces/$REPOSITORY/windows/windows.yaml
 
-sleep 180
+for ((i = 180; i >= 0; i--))
+do
+  echo "GitHub Codespaces will start in $i seconds"
+  sleep 1
+done
