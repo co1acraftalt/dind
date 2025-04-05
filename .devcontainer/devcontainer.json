@@ -21,7 +21,7 @@
     "privileged": true,
     "containerUser": "root",
     "remoteUser": "root",
-    "postCreateCommand": "sudo bash .devcontainer/postCreateCommand.sh",
+    "onCreateCommand": "sudo bash .devcontainer/onCreateCommand.sh",
     "postStartCommand": "sudo bash .devcontainer/postStartCommand.sh",
     "postAttachCommand": "sudo bash .devcontainer/postAttachCommand.sh",
     "waitFor": "postStartCommand"
