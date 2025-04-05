@@ -119,7 +119,7 @@ It uses the [AMD EPYC™ 7763](https://www.amd.com/en/products/processors/server
 
 Previously, GitHub Codespaces used [Intel® Xeon® Platinum 8168](https://azure.microsoft.com/en-us/blog/fv2-vms-are-now-available-the-fastest-vms-on-azure/) (Skylake), [Intel® Xeon® Platinum 8272CL](https://azure.microsoft.com/en-us/blog/new-general-purpose-and-memoryoptimized-azure-virtual-machines-with-intel-now-available/) (Cascade Lake), and [Intel® Xeon® Platinum 8370C](https://azure.microsoft.com/en-us/blog/upgrade-your-infrastructure-with-the-latest-dv5ev5-azure-vms-in-preview/) (Ice Lake) CPUs.
 
-Below are the available specifications for GitHub Codespaces:
+Below are the different machine types available for your GitHub Codespaces:
 
 | Machine Type | Core | RAM | Storage <br> (`/workspaces`) | Storage <br> (`/tmp`) | Price |
 | :-: | :-: | :-: | :-: | :-: | :-: |
