@@ -156,18 +156,18 @@ Your GitHub Codespaces are deployed to one of several Microsoft Azure regions.
 
 Below are the different Microsoft Azure regions available for your GitHub Codespaces:
 
-| Regions | Location |
-| :-: | :-: |
-| AustraliaCentral | Canberra |
-| AustraliaEast | New South Wales |
-| CentralIndia | Pune |
-| EastUS | Virginia |
-| EastUS2 | Virginia |
-| SoutheastAsia | Singapore |
-| UKSouth | London |
-| WestEurope | Netherlands |
-| WestUS2 | Washington |
-| WestUS3 | Arizona |
+| Geography | Region | Location |
+| :-: | :-: | :-: |
+| Australia | AustraliaCentral | Canberra |
+| Australia | AustraliaEast | New South Wales |
+| India | CentralIndia | Pune |
+| United States | EastUS | Virginia |
+| United States | EastUS2 | Virginia |
+| Asia Pacific | SoutheastAsia | Singapore |
+| United Kingdom | UKSouth | London |
+| Europe | WestEurope | Netherlands |
+| United States | WestUS2 | Washington |
+| United States | WestUS3 | Arizona |
 
 ---
 
