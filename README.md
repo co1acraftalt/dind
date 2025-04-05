@@ -173,7 +173,7 @@ Below are the different Microsoft Azure regions available for your GitHub Codesp
 
 ### How can I change the inactivity timeout for my GitHub Codespaces?
 
-By default, GitHub Codespaces has an inactivity timeout of 30 minutes.
+By default, your GitHub Codespaces has an inactivity timeout of 30 minutes.
 
 However, you can extend this inactivity timeout to a maximum of 240 minutes (4 hours) at [GitHub Codespaces — Settings](https://github.com/settings/codespaces) under `Default idle timeout`
 
