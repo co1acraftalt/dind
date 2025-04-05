@@ -150,9 +150,9 @@ Below are the usage hours for different machine types:
 
 ---
 
-### What locations are available for my GitHub Codespaces?
+### What regions are available for my GitHub Codespaces?
 
-Below are the different locations available for your GitHub Codespaces:
+Below are the different regions available for your GitHub Codespaces:
 
 | Regions |
 | :-: |
