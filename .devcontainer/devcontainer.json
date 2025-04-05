@@ -1,0 +1,28 @@
+{
+    "name": "Windows 11 (Canary) + Tailscale (unstable)",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts": [
+        "target=/var/lib/docker,type=volume"
+    ],
+    "forwardPorts": [
+        22,
+        3389,
+        5900,
+        8006
+    ],
+    "capAdd": [
+        "ALL"
+    ],
+    "securityOpt": [
+        "seccomp=unconfined"
+    ],
+    "privileged": true,
+    "containerUser": "root",
+    "remoteUser": "root",
+    "postCreateCommand": "sudo bash .devcontainer/postCreateCommand.sh",
+    "postStartCommand": "sudo bash .devcontainer/postStartCommand.sh",
+    "postAttachCommand": "sudo bash .devcontainer/postAttachCommand.sh",
+    "waitFor": "postStartCommand"
+}
