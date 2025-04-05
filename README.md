@@ -158,14 +158,14 @@ Below are the different Microsoft Azure regions available for your GitHub Codesp
 
 | Geography | Region | Location |
 | :-: | :-: | :-: |
+| Asia Pacific | SoutheastAsia | Singapore |
 | Australia | AustraliaCentral | Canberra |
 | Australia | AustraliaEast | New South Wales |
+| Europe | WestEurope | Netherlands |
 | India | CentralIndia | Pune |
+| United Kingdom | UKSouth | London |
 | United States | EastUS | Virginia |
 | United States | EastUS2 | Virginia |
-| Asia Pacific | SoutheastAsia | Singapore |
-| United Kingdom | UKSouth | London |
-| Europe | WestEurope | Netherlands |
 | United States | WestUS2 | Washington |
 | United States | WestUS3 | Arizona |
 
