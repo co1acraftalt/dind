@@ -71,7 +71,7 @@ Click on the button below:
       "state": "Available"
     }
     ```
-6) When it says `"state": "Available"` ΓÇö you can access your GitHub Codespaces at [GitHub Codespaces ΓÇö Dashboard](https://github.com/codespaces):
+6) When it says `"state": "Available"` — you can access your GitHub Codespaces at [GitHub Codespaces — Dashboard](https://github.com/codespaces):
     ![Image](https://github.com/user-attachments/assets/42406f1f-75cf-4cff-b1ad-66413ba93d67)
 
 > [!NOTE]
@@ -154,7 +154,7 @@ Below are the usage hours for different machine types:
 
 By default, GitHub Codespaces has an inactivity timeout of 30 minutes.
 
-However, you can extend this inactivity timeout to a maximum of 240 minutes (4 hours) at [GitHub Codespaces ΓÇö Settings](https://github.com/settings/codespaces) under `Default idle timeout`
+However, you can extend this inactivity timeout to a maximum of 240 minutes (4 hours) at [GitHub Codespaces — Settings](https://github.com/settings/codespaces) under `Default idle timeout`
 
 ---
 
@@ -175,8 +175,8 @@ Ngrok requires your bank details to allow TCP connections which is required for 
 #### Requirements
 
 - Hyper-V with Secure Boot, Trusted Platform Module (TPM), and Network Adapter (Ethernet) disabled.
-- `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27774.iso` from [Windows Insider Preview ΓÇö ISOs](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) is mounted as a DVD Drive on Hyper-V.
-- `virtio-win-1.9.45.iso` from [Red Hat Enterprise Linux 10 ΓÇö AppStream](https://github.com/ItzLevvie/artifacts/releases/download/latest/virtio-win-1.9.45.iso) is mounted as a DVD Drive on Hyper-V.
+- `Windows11_InsiderPreview_EnterpriseVL_x64_en-us_27774.iso` from [Windows Insider Preview — ISOs](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewiso) is mounted as a DVD Drive on Hyper-V.
+- `virtio-win-1.9.45.iso` from [Red Hat Enterprise Linux 10 — AppStream](https://github.com/ItzLevvie/artifacts/releases/download/latest/virtio-win-1.9.45.iso) is mounted as a DVD Drive on Hyper-V.
 
 ---
 
