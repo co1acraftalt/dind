@@ -40,7 +40,7 @@ Click on the button below:
 3) This will allow you to create the GitHub Codespaces based on the files from this repository:
     ```
     C:\Users\codespaces>gh codespace create --idle-timeout 4h --retention-period 720h --repo ItzLevvie/dind --machine xLargePremiumLinux
-      Γ£ô Codespaces usage for this repository is paid for by microsoft
+      ✓ Codespaces usage for this repository is paid for by microsoft
     congenial-goldfish-5ggv6rrqpx7c7pj
     ```
 4) Type `gh codespace view --repo ItzLevvie/dind --json billableOwner,createdAt,devcontainerPath,displayName,environmentId,idleTimeoutMinutes,lastUsedAt,location,machineDisplayName,machineName,name,owner,prebuild,repository,retentionExpiresAt,retentionPeriodDays,state` in Command Prompt or PowerShell.
@@ -102,7 +102,7 @@ This repository was inspired by many different YouTube videos:
 2) [Installing Windows 11 on GitHub Codespaces](https://www.youtube.com/watch?v=PQv-1-qI9zg) by [LagLife](https://www.youtube.com/@laglife)
 3) [Installing Windows 10 on GitHub Codespaces!](https://www.youtube.com/watch?v=ffdYdsejzrY) by [Nashville](https://www.youtube.com/@MSNashville7)
 4) [[PATCHED] How to Create Windows QEMU VM from Codespaces - Free Windows VPS from Codespace](https://www.youtube.com/watch?v=-kzua2uEMC8) by [Paddi's Tech Stuff](https://www.youtube.com/@PaddisTechStuff)
-5) [Get Free Windows 10 RDP on GitHub Codespaces + Ngrok! ≡ƒöÑ (No Credit Card)┘ê┘è┘å╪»┘ê╪▓ 10 ┘à╪¼╪º┘å┘è](https://www.youtube.com/watch?v=YxCukidALAY) by [Smart World](https://www.youtube.com/@BrainTest-323)
+5) [Get Free Windows 10 RDP on GitHub Codespaces + Ngrok! 🔥 (No Credit Card)ويندوز 10 مجاني](https://www.youtube.com/watch?v=YxCukidALAY) by [Smart World](https://www.youtube.com/@BrainTest-323)
 6) [How to Run Windows 10 Cloud PC on your Device using Github Codespace [New Method] [2025].](https://www.youtube.com/watch?v=Sg8m_hyNioI) by [JoyZoneTech](https://www.youtube.com/@JoyZoneTech)
 7) [How to Create a Free Windows 10 RDP on GitHub](https://www.youtube.com/watch?v=Pc9FgSvnI90) by [TechXploitz](https://www.youtube.com/@techxploitz)
 
@@ -115,9 +115,9 @@ This repository was also inspired by many different websites:
 
 GitHub Codespaces has many different machine types which you can choose based on your needs.
 
-It uses the [AMD EPYCΓäó 7763](https://www.amd.com/en/products/processors/server/epyc/7003-series/amd-epyc-7763.html) CPU which delivers the best performance as seen in [Performance Benchmarks of Cloud Machines (December 2023)](https://bas.codes/posts/cloudbench2312).
+It uses the [AMD EPYC™ 7763](https://www.amd.com/en/products/processors/server/epyc/7003-series/amd-epyc-7763.html) CPU which delivers the best performance as seen in [Performance Benchmarks of Cloud Machines (December 2023)](https://bas.codes/posts/cloudbench2312).
 
-Previously, GitHub Codespaces used [Intel┬« Xeon┬« Platinum 8168](https://azure.microsoft.com/en-us/blog/fv2-vms-are-now-available-the-fastest-vms-on-azure/), [Intel┬« Xeon┬« Platinum 8272CL](https://azure.microsoft.com/en-us/blog/new-general-purpose-and-memoryoptimized-azure-virtual-machines-with-intel-now-available/), and [Intel┬« Xeon┬« Platinum 8370C](https://azure.microsoft.com/en-us/blog/upgrade-your-infrastructure-with-the-latest-dv5ev5-azure-vms-in-preview/) CPUs.
+Previously, GitHub Codespaces used [Intel® Xeon® Platinum 8168](https://azure.microsoft.com/en-us/blog/fv2-vms-are-now-available-the-fastest-vms-on-azure/), [Intel® Xeon® Platinum 8272CL](https://azure.microsoft.com/en-us/blog/new-general-purpose-and-memoryoptimized-azure-virtual-machines-with-intel-now-available/), and [Intel® Xeon® Platinum 8370C](https://azure.microsoft.com/en-us/blog/upgrade-your-infrastructure-with-the-latest-dv5ev5-azure-vms-in-preview/) CPUs.
 
 Below are the available specifications:
 
