@@ -150,6 +150,25 @@ Below are the usage hours for different machine types:
 
 ---
 
+### What locations are available for my GitHub Codespaces?
+
+Below are the different locations available for GitHub Codespaces:
+
+| Regions |
+| :-: |
+| AustraliaCentral |
+| AustraliaEast |
+| CentralIndia |
+| EastUS |
+| EastUS2 |
+| SoutheastAsia |
+| UKSouth |
+| WestEurope |
+| WestUS2 |
+| WestUS3 |
+
+---
+
 ### How can I change the inactivity timeout for my GitHub Codespaces?
 
 By default, GitHub Codespaces has an inactivity timeout of 30 minutes.
