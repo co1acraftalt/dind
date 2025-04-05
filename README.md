@@ -154,18 +154,18 @@ Below are the usage hours for different machine types:
 
 Below are the different regions available for your GitHub Codespaces:
 
-| Regions |
-| :-: |
-| AustraliaCentral |
-| AustraliaEast |
-| CentralIndia |
-| EastUS |
-| EastUS2 |
-| SoutheastAsia |
-| UKSouth |
-| WestEurope |
-| WestUS2 |
-| WestUS3 |
+| Regions | Location |
+| :-: | :-: |
+| AustraliaCentral | Canberra |
+| AustraliaEast | New South Wales |
+| CentralIndia | Pune |
+| EastUS | Virginia |
+| EastUS2 | Virginia |
+| SoutheastAsia | Singapore |
+| UKSouth | London |
+| WestEurope | Netherlands |
+| WestUS2 | Washington |
+| WestUS3 | Arizona |
 
 ---
 
