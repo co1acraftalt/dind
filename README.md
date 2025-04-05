@@ -152,7 +152,7 @@ Below are the usage hours for different machine types:
 
 ### What regions are available for my GitHub Codespaces?
 
-Your GitHub Codespaces is deployed to one of several Microsoft Azure regions.
+Your GitHub Codespaces are deployed to one of several Microsoft Azure regions.
 
 Below are the different Microsoft Azure regions available for your GitHub Codespaces:
 
