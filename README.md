@@ -91,9 +91,9 @@ This repository contains a few helper scripts to get you started[^3].
 | stop | Stops Windows 11 |
 | restart | Restarts Windows 11 |
 | kill | Forcefully stops Windows 11 |
-| reset | Resets Windows 11 to a clean state <br><br> Note: This will only work if `/tmp/dind/windows/data.img` exists |
-| remove | Removes the Docker container |
-| rebuild | Full rebuild of your GitHub Codespaces |
+| reset | Resets Windows 11 to a clean state <br><br> Note: This will only work if the `/tmp/dind/windows/data.img` file exists |
+| remove | Removes the `windows` container |
+| rebuild | Performs a full rebuild of your GitHub Codespaces |
 
 ## Frequently Asked Questions (FAQ)
 
