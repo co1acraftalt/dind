@@ -1,3 +1,3 @@
 export REPOSITORY=dind
 
-docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml down
+docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml stop
