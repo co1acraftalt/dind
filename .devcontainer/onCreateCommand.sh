@@ -14,12 +14,14 @@ cp /workspaces/$REPOSITORY/.devcontainer/helpers/restart /usr/local/bin/restart
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/reset /usr/local/bin/reset
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/rebuild /usr/local/bin/rebuild
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/remove /usr/local/bin/remove
+cp /workspaces/$REPOSITORY/.devcontainer/helpers/kill /usr/local/bin/kill
 chmod +x /usr/local/bin/start
 chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart
 chmod +x /usr/local/bin/reset
 chmod +x /usr/local/bin/rebuild
 chmod +x /usr/local/bin/remove
+chmod +x /usr/local/bin/kill
 
 mkdir --parents /workspaces/$REPOSITORY/windows
 echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
