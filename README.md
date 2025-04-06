@@ -90,7 +90,9 @@ This repository contains a few helper scripts to get you started[^3].
 | start | This command starts Windows 11 |
 | stop | This command stops Windows 11 |
 | restart | This command restarts Windows 11 |
-| reset | This command resets Windows 11 to its factory settings |
+| reset | This command resets Windows 11 to its factory settings <br> This command will only work if `/tmp/dind/windows/data.img` exists |
+| kill | This command kills Windows 11 |
+| remove | This command removes the Docker container |
 | rebuild | This command does a full rebuild of your GitHub Codespaces |
 
 ## Frequently Asked Questions (FAQ)
