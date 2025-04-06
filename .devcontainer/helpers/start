@@ -1,6 +1,6 @@
 export REPOSITORY=dind
 
-if docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml images | grep "windows"; then
+if docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml images | grep --quiet "windows"; then
     docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml start
 else
     docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml up
