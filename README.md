@@ -144,14 +144,14 @@ Below are the different hours for your GitHub Codespaces:
 
 | Machine Type | GitHub Free <br> (120 core hours per month) | GitHub Pro <br> (180 core hours per month) | Microsoft employees and partners <br> (unlimited core hours per month) |
 | :-: | :-: | :-: | :-: |
-| basicLinux32gb | 60 hours | 90 hours | unlimited hours |
-| standardLinux32gb | 30 hours | 45 hours | unlimited hours |
-| premiumLinux[^1] | 15 hours | 22.5 hours | unlimited hours |
-| largePremiumLinux[^1] | 7.5 hours | 11.25 hours | unlimited hours |
-| xLargePremiumLinux[^1][^2] | 3.75 hours | 5.625 hours | unlimited hours |
+| basicLinux32gb | 60 usage hours | 90 usage hours | unlimited usage hours |
+| standardLinux32gb | 30 usage hours | 45 usage hours | unlimited usage hours |
+| premiumLinux[^1] | 15 usage hours | 22.5 usage hours | unlimited usage hours |
+| largePremiumLinux[^1] | 7.5 usage hours | 11.25 usage hours | unlimited usage hours |
+| xLargePremiumLinux[^1][^2] | 3.75 usage hours | 5.625 usage hours | unlimited usage hours |
 
 > [!NOTE]
-> If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 hours per month). <br><br>
+> If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 usage hours per month). <br><br>
 > After this, you will need to provide your payment details to continue using GitHub Codespaces.
 
 > [!TIP]
