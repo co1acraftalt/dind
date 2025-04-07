@@ -151,7 +151,7 @@ Below are the different usage hours for your GitHub Codespaces:
 | xLargePremiumLinux[^1][^2] | 3.75 hours | 5.625 hours | unlimited hours |
 
 > [!NOTE]
-> If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 hours per month). <br>
+> If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 hours per month). <br><br>
 > After this, you will need to provide your payment details to continue using GitHub Codespaces.
 
 ---
