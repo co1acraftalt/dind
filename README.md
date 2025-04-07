@@ -154,6 +154,10 @@ Below are the different core hours for your GitHub Codespaces:
 > If you are on GitHub Free, you can use GitHub Codespaces for free (up to 60 core hours per month). <br><br>
 > After this, you will need to provide your payment details to continue using GitHub Codespaces.
 
+> [!TIP]
+> GitHub has a formula to calculate core hours. <br>
+> It is the amount of cores multiplied by how many hours you plan to use that machine type.
+
 ---
 
 ### What regions are available for my GitHub Codespaces?
