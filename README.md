@@ -327,7 +327,7 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 
 ---
 
-11\)
+11\) You can upload your VHDX file to GitHub Releases
 
 `7z a -mmt32 -mx9 -v1g data.7z data.vhdx`
 - `-mmt32` forces 7-Zip to use 32 cores.
