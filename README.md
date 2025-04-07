@@ -136,7 +136,7 @@ Below are the different machine types available for your GitHub Codespaces:
 
 ---
 
-### How many core hours can I use GitHub Codespaces for free each month?
+### How many hours can I use GitHub Codespaces for free each month?
 
 GitHub Codespaces has different core hours based on which plan your GitHub account uses.
 
