@@ -187,7 +187,7 @@ Tailscale has the lowest latency because all connections are peer-to-peer (P2P).
 
 Tailscale has more features than its competitors.
 
-Ngrok uses a relay server which increases the latency for your Remote Desktop Protocol (RDP) connections.
+Ngrok uses a tunnel server which increases the latency for your Remote Desktop Protocol (RDP) connections.
 
 Ngrok requires your bank details to allow TCP connections which is required for Remote Desktop Protocol (RDP) to properly work.
 
