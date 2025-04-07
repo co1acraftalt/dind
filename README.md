@@ -142,7 +142,7 @@ GitHub Codespaces has different hours based on which plan your GitHub account us
 
 Below are the different hours for your GitHub Codespaces:
 
-| Machine Type | GitHub Free <br> (120 core hours per month) | GitHub Pro <br> (180 core hours per month) | Microsoft employees and partners |
+| Machine Type | GitHub Free <br> (120 core hours per month) | GitHub Pro <br> (180 core hours per month) | Microsoft employees and partners <br> (unlimited core hours per month) |
 | :-: | :-: | :-: | :-: |
 | basicLinux32gb | 60 hours | 90 hours | unlimited hours |
 | standardLinux32gb | 30 hours | 45 hours | unlimited hours |
