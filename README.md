@@ -150,6 +150,9 @@ Below are the different usage hours for your GitHub Codespaces:
 | largePremiumLinux[^1] | 7.5 hours | 11.25 hours | unlimited hours |
 | xLargePremiumLinux[^1][^2] | 3.75 hours | 5.625 hours | unlimited hours |
 
+> [!NOTE]
+> If you are on GitHub Free — you can use GitHub Codespaces for free (up to 90 hours per month) before you are required to enter your payment details.
+
 ---
 
 ### What regions are available for my GitHub Codespaces?
@@ -189,7 +192,7 @@ Tailscale has more features than its competitors.
 
 Ngrok uses a tunnel server which increases the latency for your Remote Desktop Protocol (RDP) connections.
 
-Ngrok requires your bank details to allow TCP connections which is required for Remote Desktop Protocol (RDP) to properly work.
+Ngrok requires your payment details to allow TCP connections which is required for Remote Desktop Protocol (RDP) to properly work.
 
 ---
 
