@@ -155,8 +155,7 @@ Below are the different hours for your GitHub Codespaces:
 > After this, you will need to provide your payment details to continue using GitHub Codespaces.
 
 > [!TIP]
-> GitHub has a formula to calculate your total core hours. <br>
-> Multiply the number of cores by the number of hours you plan to use that machine type. <br><br>
+> GitHub has a formula to calculate your total core hours: multiply the number of cores by the number of hours you plan to use that machine type. <br><br>
 > For example: If you wanted to use `premiumLinux` for 3 hours then you calculate 8 * 3 = 24 core hours <br>
 > For example: If you wanted to use `premiumLinux` for 7.5 hours then you calculate 8 * 7.5 = 60 core hours
 
