@@ -4,8 +4,4 @@ docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml stop
 rm --force /workspaces/$REPOSITORY/windows/data.img
 
 cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
-if docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml images | grep --quiet "windows"; then
-    docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml start
-else
-    docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml up
-fi
+start
