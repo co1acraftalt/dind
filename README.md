@@ -136,11 +136,11 @@ Below are the different machine types available for your GitHub Codespaces:
 
 ---
 
-### How many hours can I use GitHub Codespaces for free each month?
+### How many usage hours can I use GitHub Codespaces for free each month?
 
-GitHub Codespaces has different hours based on which plan your GitHub account uses.
+GitHub Codespaces has different usage hours based on which plan your GitHub account uses.
 
-Below are the different hours for your GitHub Codespaces:
+Below are the different usage hours for your GitHub Codespaces:
 
 | Machine Type | GitHub Free <br> (120 core hours per month) | GitHub Pro <br> (180 core hours per month) | Microsoft employees and partners <br> (unlimited core hours per month) |
 | :-: | :-: | :-: | :-: |
