@@ -12,6 +12,24 @@
         5900,
         8006
     ],
+    "portsAttributes": {
+        "22": {
+            "label": "SSH",
+            "onAutoForward": "notify"
+        },
+        "3389": {
+            "label": "QEMU (rdp)",
+            "onAutoForward": "notify"
+        },
+        "5900": {
+            "label": "QEMU (vnc)",
+            "onAutoForward": "notify"
+        },
+        "8006": {
+            "label": "QEMU (web)",
+            "onAutoForward": "notify"
+        }
+    },
     "capAdd": [
         "ALL"
     ],
