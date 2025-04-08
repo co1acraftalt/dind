@@ -23,7 +23,9 @@ chmod +x /usr/local/bin/rebuild
 chmod +x /usr/local/bin/remove
 chmod +x /usr/local/bin/kill
 
-echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
+{
+    echo "data.img"
+} > /workspaces/$REPOSITORY/windows/windows.boot
 
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.001 --output-document /tmp/$REPOSITORY/windows/data.7z.001
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.002 --output-document /tmp/$REPOSITORY/windows/data.7z.002
