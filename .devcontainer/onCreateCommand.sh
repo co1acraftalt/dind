@@ -5,7 +5,7 @@ rm --recursive --force /tmp/$REPOSITORY/windows/*
 
 mv --force /workspaces/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
 rm --recursive --force /workspaces/$REPOSITORY
-mkdir --parents /workspaces/$REPOSITORY
+mkdir --parents /workspaces/$REPOSITORY/windows
 mv --force /tmp/$REPOSITORY/.devcontainer /workspaces/$REPOSITORY/.devcontainer
 
 cp /workspaces/$REPOSITORY/.devcontainer/helpers/start /usr/local/bin/start
@@ -23,7 +23,6 @@ chmod +x /usr/local/bin/rebuild
 chmod +x /usr/local/bin/remove
 chmod +x /usr/local/bin/kill
 
-mkdir --parents /workspaces/$REPOSITORY/windows
 echo "data.img" > /workspaces/$REPOSITORY/windows/windows.boot
 
 wget https://github.com/ItzLevvie/artifacts/releases/download/27774-2/data.7z.001 --output-document /tmp/$REPOSITORY/windows/data.7z.001
