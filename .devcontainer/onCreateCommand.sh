@@ -1,6 +1,6 @@
 export REPOSITORY=dind
 
-rm --recursive --force /tmp/$REPOSITORY/windows
+rm --recursive --force /tmp/$REPOSITORY
 mkdir --parents /tmp/$REPOSITORY/windows
 mv --force /workspaces/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
 
