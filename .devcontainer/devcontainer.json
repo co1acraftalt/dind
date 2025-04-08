@@ -14,19 +14,19 @@
     ],
     "portsAttributes": {
         "22": {
-            "label": "SSH",
+            "label": "GitHub Codespaces (SSH)",
             "onAutoForward": "notify"
         },
         "3389": {
-            "label": "QEMU (rdp)",
+            "label": "QEMU (RDP)",
             "onAutoForward": "notify"
         },
         "5900": {
-            "label": "QEMU (vnc)",
+            "label": "QEMU (VNC)",
             "onAutoForward": "notify"
         },
         "8006": {
-            "label": "QEMU (web)",
+            "label": "QEMU (HTTPS)",
             "onAutoForward": "notify"
         }
     },
