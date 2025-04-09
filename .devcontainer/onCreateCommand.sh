@@ -62,6 +62,7 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "    devices:"
     echo "      - /dev/kvm"
     echo "      - /dev/net/tun"
+    echo "      - /dev/vhost-net"
     echo "    cap_add:"
     echo "      - ALL"
     echo "    security_opt:"
