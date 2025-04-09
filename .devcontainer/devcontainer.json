@@ -37,8 +37,6 @@
         "seccomp=unconfined"
     ],
     "runArgs": [
-        "--privileged",
-        "--cap-add=ALL",
         "--device=/dev/kvm",
         "--device=/dev/net/tun",
         "--device=/dev/vhost-net"
