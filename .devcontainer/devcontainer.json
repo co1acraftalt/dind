@@ -36,6 +36,12 @@
     "securityOpt": [
         "seccomp=unconfined"
     ],
+    "runArgs": [
+        "--privileged",
+        "--device=/dev/kvm",
+        "--device=/dev/net/tun",
+        "--device=/dev/vhost-net"
+    ],
     "privileged": true,
     "containerUser": "root",
     "remoteUser": "root",
