@@ -91,7 +91,7 @@ Click on the button below:
 
 ### Commands
 
-This repository contains a few helper scripts to get you started[^3].
+This repository contains a few helper scripts[^3] to get you started.
 
 [^3]: These helper scripts are located [here](https://github.com/ItzLevvie/dind/tree/main/.devcontainer/helpers).
 
