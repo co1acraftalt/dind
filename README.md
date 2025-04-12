@@ -10,6 +10,9 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 > This repository should be used for development and testing purposes only. <br>
 > I am not responsible for any issues such as account suspensions or data loss.
 
+## Table of Contents
+- [Images](#images)
+
 ## Images
 
 Below are screenshots of Windows 11 running on GitHub Codespaces:
