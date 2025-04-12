@@ -12,6 +12,11 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 
 ## Table of Contents
 - [Images](#images)
+- [Usage](#usage)
+    - [Using the web version of GitHub (recommended)](#using-the-web-version-of-github-recommended)
+    - [Using the CLI version of GitHub (alternative)](#using-the-cli-version-of-github-alternative)
+- [Commands](#commands)
+- [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 
 ## Images
 
