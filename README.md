@@ -17,6 +17,15 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
     - [Using the CLI version of GitHub (alternative)](#using-the-cli-version-of-github-alternative)
 - [Commands](#commands)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
+    - [Why did you create this repository?](#why-did-you-create-this-repository)
+    - [What machine types are available for GitHub Codespaces?](#what-machine-types-are-available-for-github-codespaces)
+    - [How many usage hours can I use GitHub Codespaces for free each month?](#how-many-usage-hours-can-i-use-github-codespaces-for-free-each-month)
+    - [What regions are available for my GitHub Codespaces?](#what-regions-are-available-for-my-github-codespaces)
+    - [How can I change the inactivity timeout for my GitHub Codespaces?](#how-can-i-change-the-inactivity-timeout-for-my-github-codespaces)
+    - [Why did you choose Tailscale over Ngrok for Remote Desktop Protocol (RDP)?](#why-did-you-choose-tailscale-over-ngrok-for-remote-desktop-protocol-rdp)
+    - [What are the steps to create my own system images?](#what-are-the-steps-to-create-my-own-system-images)
+        - [Requirements](#requirements)
+        - [Guide](#guide)
 
 ## Images
 
