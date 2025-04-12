@@ -29,7 +29,7 @@ It is based on the [dockur/windows](https://github.com/dockur/windows) repositor
 
 ## Images
 
-Below are screenshots of Windows 11 running on GitHub Codespaces:
+Below are images of Windows 11 running on GitHub Codespaces:
 
 ![Image](https://github.com/user-attachments/assets/561bb50d-eee8-46cb-9614-8d5a16a9296c)
 
