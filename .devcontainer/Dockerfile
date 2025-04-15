@@ -16,6 +16,8 @@ RUN rm --recursive --force /var/lib/apt/lists/*
 RUN update-alternatives --set iptables /usr/sbin/iptables-legacy
 RUN update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 
+RUN sysctl --write net.ipv6.conf.all.forwarding=1
+
 # https://www.speedtest.net/apps/cli
 RUN wget https://github.com/ItzLevvie/artifacts/releases/latest/download/speedtest --output-document /usr/local/bin/speedtest
 RUN chmod +x /usr/local/bin/speedtest
