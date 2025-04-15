@@ -1,4 +1,4 @@
-export REPOSITORY=dind
+export REPOSITORY=github
 
 sysctl --write net.ipv4.ip_forward=1
 sysctl --write net.ipv6.conf.all.forwarding=1
