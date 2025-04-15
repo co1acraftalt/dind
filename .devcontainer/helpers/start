@@ -1,4 +1,4 @@
-export REPOSITORY=dind
+export REPOSITORY=github
 
 if docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml images | grep --quiet "windows"; then
     docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml start
