@@ -1,5 +1,6 @@
 export REPOSITORY=dind
 
+sysctl --write net.ipv4.ip_forward=1
 sysctl --write net.ipv6.conf.all.forwarding=1
 
 ethtool --features eth0 rx-udp-gro-forwarding on
