@@ -110,7 +110,7 @@ This repository contains a few helper scripts[^3] to get you started.
 | stop | Stops Windows 11 |
 | restart | Restarts Windows 11 |
 | kill | Forcefully stops Windows 11 |
-| reset | Resets Windows 11 to a clean state <br><br> Note: This will only work if the `/tmp/dind/windows/data.img` file exists |
+| reset | Resets Windows 11 to a clean state <br><br> Note: This will only work if the `/tmp/github/windows/data.img` file exists |
 | remove | Removes the `windows` container |
 | rebuild | Performs a full rebuild of your GitHub Codespaces |
 
