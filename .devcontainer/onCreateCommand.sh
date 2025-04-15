@@ -1,4 +1,4 @@
-export REPOSITORY=dind
+export REPOSITORY=github
 
 rm --recursive --force /tmp/$REPOSITORY
 mkdir --parents /tmp/$REPOSITORY/windows
