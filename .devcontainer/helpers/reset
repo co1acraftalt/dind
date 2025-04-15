@@ -1,4 +1,4 @@
-export REPOSITORY=dind
+export REPOSITORY=github
 
 stop
 rm --force /workspaces/$REPOSITORY/windows/data.img
