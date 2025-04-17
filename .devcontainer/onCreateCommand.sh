@@ -77,7 +77,7 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
 
 echo ""
 
-for ((i = 150; i >= 0; i--)); do
+for ((i = 140; i >= 0; i--)); do
     echo "Your GitHub Codespaces will start in $i seconds."
     sleep 1
 done
