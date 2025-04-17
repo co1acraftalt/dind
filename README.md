@@ -177,8 +177,8 @@ Below are the different usage hours for your GitHub Codespaces:
 > GitHub has a formula to calculate your core hours. <br>
 > It is the **number of cores** multiplied by **how many hours you used a particular machine type**. <br><br>
 > For example: <br>
-> If you wanted to use `premiumLinux` (8 cores) for 3 hours then you calculate 8 * 3 = 24 core hours <br>
-> If you wanted to use `premiumLinux` (8 cores) for 7.5 hours then you calculate 8 * 7.5 = 60 core hours
+> 1) If you wanted to use `premiumLinux` (8 cores) for 3 hours then you calculate 8 * 3 = 24 core hours <br>
+> 2) If you wanted to use `premiumLinux` (8 cores) for 7.5 hours then you calculate 8 * 7.5 = 60 core hours
 
 ---
 
