@@ -145,8 +145,8 @@ Below are the different machine types available for your GitHub Codespaces:
 | Machine Type | Core | RAM | Storage <br> (`/workspaces`) | Storage <br> (`/tmp`) | Price |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | basicLinux32gb | 2 cores | 8 GB | 32 GB | 44 GB | $0.18 per hour |
-| standardLinux32gb | 4 cores | 16 GB | 32 GB | 118 GB | $0.36 per hour |
-| premiumLinux[^1] | 8 cores | 32 GB | 64 GB | 265 GB | $0.72 per hour |
+| standardLinux32gb | 4 cores <br> (2 cores / 4 threads) | 16 GB | 32 GB | 118 GB | $0.36 per hour |
+| premiumLinux[^1] | 8 cores <br> (4 cores / 8 threads) | 32 GB | 64 GB | 265 GB | $0.72 per hour |
 | largePremiumLinux[^1] | 16 cores <br> (8 cores / 16 threads) | 64 GB | 128 GB | 560 GB | $1.44 per hour |
 | xLargePremiumLinux[^1][^2] | 32 cores <br> (16 cores / 32 threads) | 128 GB | 128 GB | 1.2 TB | $2.88 per hour |
 
