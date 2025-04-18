@@ -4,7 +4,7 @@
         "dockerfile": "Dockerfile"
     },
     "mounts": [
-        "target=/var/lib/docker,type=volume"
+        "source=var-lib-docker,target=/var/lib/docker,type=volume"
     ],
     "forwardPorts": [
         22,
