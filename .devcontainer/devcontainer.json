@@ -44,7 +44,7 @@
     "privileged": true,
     "containerUser": "root",
     "remoteUser": "root",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/github,type=bind",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/github,type=bind,consistency=cached",
     "workspaceFolder": "/workspaces/github",
     "onCreateCommand": "sudo bash .devcontainer/onCreateCommand.sh",
     "postStartCommand": "sudo bash .devcontainer/postStartCommand.sh",
