@@ -54,7 +54,7 @@ Click on the button below:
 
 ### Using the CLI version of GitHub (alternative)
 
-1) Install [GitHub CLI](https://github.com/cli/cli/releases/download/v2.70.0/gh_2.70.0_windows_amd64.msi)
+1) Install [GitHub CLI](https://github.com/cli/cli/releases/latest)
 2) Type `gh codespace create --idle-timeout 4h --retention-period 720h --repo ItzLevvie/dind --machine standardLinux32gb` in Command Prompt or PowerShell.
 3) This will allow you to create the GitHub Codespaces based on the files from this repository:
     ```
@@ -345,7 +345,7 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr
 
 9\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
-You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.com/cli/cli/releases/download/v2.70.0/gh_2.70.0_windows_amd64.msi): `gh codespace cp --expand "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx" remote:/workspaces/github`
+You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.com/cli/cli/releases/latest): `gh codespace cp --expand "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx" remote:/workspaces/github`
 
 ---
 
