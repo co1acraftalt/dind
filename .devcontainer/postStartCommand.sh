@@ -1,7 +1,7 @@
 export REPOSITORY=github
 
-rm --force /var/run/docker/containerd/containerd.pid
 rm --force /var/run/docker.pid
+rm --force /var/run/docker/containerd/containerd.pid
 
 sysctl --write net.ipv4.ip_forward=1
 sysctl --write net.ipv6.conf.all.forwarding=1
