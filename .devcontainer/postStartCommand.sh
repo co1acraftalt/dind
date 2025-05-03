@@ -1,5 +1,7 @@
 export REPOSITORY=github
 
+rm --force /var/run/docker.pid
+
 sysctl --write net.ipv4.ip_forward=1
 sysctl --write net.ipv6.conf.all.forwarding=1
 
