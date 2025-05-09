@@ -339,7 +339,7 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr
 - `BypassNRO` with a value of `1`
 
 > [!TIP]
-> This allows you to create a local account.
+> This allows you to create a local account on Windows 11.
 
 ---
 
