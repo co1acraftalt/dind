@@ -343,13 +343,24 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr
 
 ---
 
-9\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
+9\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
+- press <kbd>Shift</kbd> + <kbd>F10</kbd>
+- type `cd C:\Windows\System32` and press <kbd>Enter</kbd>
+- type `cscript //nologo slmgr.vbs /skms azkms.core.windows.net` and press <kbd>Enter</kbd>
+- type `shutdown /s /t 0` and press <kbd>Enter</kbd>
+
+> [!TIP]
+> This allows you to activate Windows 11 Enterprise for free.
+
+---
+
+10\) Hyper-V will store your VHDX file at `C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx`
 
 You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI](https://github.com/cli/cli/releases/latest): `gh codespace cp --expand "C:\ProgramData\Microsoft\Windows\Virtual Hard Disks\data.vhdx" remote:/workspaces/github`
 
 ---
 
-10\) Your VHDX file will have to be converted to an IMG file.
+11\) Your VHDX file will have to be converted to an IMG file.
 
 `qemu-img convert -p -O raw -o preallocation=off data.vhdx windows/data.img`
 - `-p` forces QEMU to display the progress bar.
@@ -357,26 +368,9 @@ You will have to send your VHDX file to your GitHub Codespaces using [GitHub CLI
 
 ---
 
-11\) You can upload your VHDX file to GitHub Releases
+12\) You can upload your VHDX file to GitHub Releases
 
 `7z a -mmt32 -mx9 -v1g data.7z data.vhdx`
 - `-mmt32` forces 7-Zip to use 32 cores.
 - `-mx9` forces 7-Zip to use ultra compression.
 - `-v1g` forces 7-Zip to split the `data.7z` file into 1 GB chunks.
-
----
-
-### How can I activate Windows 11?
-
-GitHub Codespaces runs on Microsoft Azure which allows you to activate Windows 11 for free:
-- press <kbd>Windows</kbd> + <kbd>R</kbd>
-- type `cmd` and press <kbd>Enter</kbd>
-- type `cd C:\Windows\System32`
-- type `cscript //nologo slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43` and press <kbd>Enter</kbd>
-- type `cscript //nologo slmgr.vbs /skms azkms.core.windows.net` and press <kbd>Enter</kbd>
-- type `cscript //nologo slmgr.vbs /ato` and press <kbd>Enter</kbd>
-- type `cscript //nologo slmgr.vbs /dlv` and press <kbd>Enter</kbd>
-
-> [!TIP]
-> This allows you to activate Windows 11 for free using the KMS server from Azure Virtual Desktop (AVD), Microsoft Dev Box, and Windows 365. <br>
-> This is because the KMS server checks if the GitHub Codespaces' IP address comes from Microsoft Corporation (AS8075).
