@@ -253,7 +253,7 @@ Create three registry entries at `HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig`:
 - click `Load Driver`
 - uncheck `Hide drivers that aren't compatible with this computer's hardware`
 - click `Browse`
-- select `CD Drive (E:) virtio-win-1.9.45`
+- select `CD Drive (E:) virtio-win-1.9.46`
 - install `vioscsi` from `E:\vioscsi\w11\amd64\vioscsi.inf`
 
 > [!IMPORTANT]
