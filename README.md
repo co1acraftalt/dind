@@ -345,7 +345,6 @@ Create one registry entry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curr
 
 9\) In the Windows 11 OOBE where it says `Is this the right country or region?`:
 - press <kbd>Shift</kbd> + <kbd>F10</kbd>
-- type `cd C:\Windows\System32` and press <kbd>Enter</kbd>
 - type `cscript //nologo slmgr.vbs /skms azkms.core.windows.net` and press <kbd>Enter</kbd>
 - type `shutdown /s /t 0` and press <kbd>Enter</kbd>
 
