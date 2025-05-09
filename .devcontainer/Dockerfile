@@ -60,6 +60,6 @@ RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 RUN wget https://github.com/ItzLevvie/artifacts/releases/latest/download/buildx.linux-amd64 --output-document /usr/local/lib/docker/cli-plugins/docker-buildx
 RUN chmod +x /usr/local/lib/docker/cli-plugins/docker-buildx
 
-# https://github.com/cli/cli/actions/workflows/deployment.yml?query=event%3Aworkflow_dispatch+is%3Asuccess+branch%3Atrunk
+# https://github.com/cli/cli/releases/latest
 RUN wget https://github.com/ItzLevvie/artifacts/releases/latest/download/gh --output-document /usr/local/bin/gh
 RUN chmod +x /usr/local/bin/gh
