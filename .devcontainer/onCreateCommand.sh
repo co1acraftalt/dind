@@ -72,7 +72,7 @@ cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
     echo "      - /tmp/$REPOSITORY/windows:/storage2"
     echo "      - /workspaces/$REPOSITORY:/data"
     echo "    privileged: true"
-    echo "    restart: always"
+    echo "    restart: on-failure"
 } > /workspaces/$REPOSITORY/windows/windows.yaml
 
 echo ""
