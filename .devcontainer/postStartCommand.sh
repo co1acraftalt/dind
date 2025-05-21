@@ -1,4 +1,4 @@
-export REPOSITORY=github
+export REPOSITORY=dind
 
 rm --force /var/run/docker.pid
 rm --force /var/run/docker/containerd/containerd.pid
@@ -17,4 +17,4 @@ swapon /tmp/swap
 
 dockerd --seccomp-profile unconfined --experimental &> /dev/null &
 
-tailscaled -statedir /workspaces/$REPOSITORY/.devcontainer/tailscale &> /dev/null &
+tailscaled -statedir /workspace/$REPOSITORY/.devcontainer/tailscale &> /dev/null &
