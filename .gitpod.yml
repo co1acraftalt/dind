@@ -14,16 +14,16 @@ tasks:
 ports:
   - port: 22
     label: GitHub Codespaces (SSH)
-    onOpen: notify
+    #onOpen: notify
   - port: 3389
     label: QEMU (RDP)
-    onOpen: notify
+    #onOpen: notify
   - port: 5900
     label: QEMU (VNC)
-    onOpen: notify
+    #onOpen: notify
   - port: 8006
     label: QEMU (HTTP/HTTPS)
-    onOpen: notify
+    #onOpen: notify
 
 # Note: Gitpod does not support all Docker run options (like privileged, capAdd, securityOpt, or custom device mounts).
 # These options are omitted or may require Gitpod workspace configuration or custom workspace images.
