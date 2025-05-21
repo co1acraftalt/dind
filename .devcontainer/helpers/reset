@@ -1,7 +1,7 @@
-export REPOSITORY=github
+export REPOSITORY=dind
 
 kill
-rm --force /workspaces/$REPOSITORY/windows/data.img
+rm --force /workspace/$REPOSITORY/windows/data.img
 
-cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
+cp /tmp/$REPOSITORY/windows/data.img /workspace/$REPOSITORY/windows/data.img
 start
