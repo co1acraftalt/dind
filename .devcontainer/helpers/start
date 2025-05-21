@@ -1,9 +1,9 @@
-export REPOSITORY=github
+export REPOSITORY=dind
 
 dockerd --seccomp-profile unconfined --experimental &> /dev/null &
 
-if docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml images | grep --quiet "windows"; then
-    docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml start
+if docker compose --file /workspace/$REPOSITORY/windows/windows.yaml images | grep --quiet "windows"; then
+    docker compose --file /workspace/$REPOSITORY/windows/windows.yaml start
 else
-    docker compose --file /workspaces/$REPOSITORY/windows/windows.yaml up
+    docker compose --file /workspace/$REPOSITORY/windows/windows.yaml up
 fi
