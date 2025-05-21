@@ -1,0 +1,28 @@
+image:
+  file: .devcontainer/Dockerfile
+
+tasks:
+  - name: On Create
+    init: sudo bash .devcontainer/onCreateCommand.sh
+  - name: Post Start
+    command: sudo bash .devcontainer/postStartCommand.sh
+  - name: Post Attach
+    command: sudo bash .devcontainer/postAttachCommand.sh
+
+ports:
+  - port: 22
+    label: GitHub Codespaces (SSH)
+    onOpen: notify
+  - port: 3389
+    label: QEMU (RDP)
+    onOpen: notify
+  - port: 5900
+    label: QEMU (VNC)
+    onOpen: notify
+  - port: 8006
+    label: QEMU (HTTP/HTTPS)
+    onOpen: notify
+
+# Note: Gitpod does not support all Docker run options (like privileged, capAdd, securityOpt, or custom device mounts).
+# These options are omitted or may require Gitpod workspace configuration or custom workspace images.
+# Workspace folder is set automatically in Gitpod.
