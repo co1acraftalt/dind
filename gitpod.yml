@@ -2,6 +2,8 @@ image:
   file: .devcontainer/Dockerfile
 
 tasks:
+  - name: Install Packages
+    before: sudo apt-get install qemu-system -y && sudo apt-get install p7zip-full -y && curl -fsSL https://tailscale.com/install.sh | sh
   - name: On Create
     init: sudo bash .devcontainer/onCreateCommand.sh
   - name: Post Start
