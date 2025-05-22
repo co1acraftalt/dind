@@ -2,19 +2,19 @@ export REPOSITORY=dind
 
 rm --recursive --force /tmp/$REPOSITORY
 mkdir --parents /tmp/$REPOSITORY/windows
-mv --force /workspace/$REPOSITORY/.devcontainer /tmp/$REPOSITORY/.devcontainer
+mv --force /workspace/$REPOSITORY/devcontainer /tmp/$REPOSITORY/devcontainer
 
 rm --recursive --force /workspace/$REPOSITORY
 mkdir --parents /workspace/$REPOSITORY/windows
-mv --force /tmp/$REPOSITORY/.devcontainer /workspace/$REPOSITORY/.devcontainer
+mv --force /tmp/$REPOSITORY/devcontainer /workspace/$REPOSITORY/devcontainer
 
-cp /workspace/$REPOSITORY/.devcontainer/helpers/start /usr/local/bin/start
-cp /workspace/$REPOSITORY/.devcontainer/helpers/stop /usr/local/bin/stop
-cp /workspace/$REPOSITORY/.devcontainer/helpers/restart /usr/local/bin/restart
-cp /workspace/$REPOSITORY/.devcontainer/helpers/reset /usr/local/bin/reset
-cp /workspace/$REPOSITORY/.devcontainer/helpers/rebuild /usr/local/bin/rebuild
-cp /workspace/$REPOSITORY/.devcontainer/helpers/remove /usr/local/bin/remove
-cp /workspace/$REPOSITORY/.devcontainer/helpers/kill /usr/local/bin/kill
+cp /workspace/$REPOSITORY/devcontainer/helpers/start /usr/local/bin/start
+cp /workspace/$REPOSITORY/devcontainer/helpers/stop /usr/local/bin/stop
+cp /workspace/$REPOSITORY/devcontainer/helpers/restart /usr/local/bin/restart
+cp /workspace/$REPOSITORY/devcontainer/helpers/reset /usr/local/bin/reset
+cp /workspace/$REPOSITORY/devcontainer/helpers/rebuild /usr/local/bin/rebuild
+cp /workspace/$REPOSITORY/devcontainer/helpers/remove /usr/local/bin/remove
+cp /workspace/$REPOSITORY/devcontainer/helpers/kill /usr/local/bin/kill
 chmod +x /usr/local/bin/start
 chmod +x /usr/local/bin/stop
 chmod +x /usr/local/bin/restart

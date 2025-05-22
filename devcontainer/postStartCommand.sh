@@ -17,4 +17,4 @@ swapon /tmp/swap
 
 dockerd --seccomp-profile unconfined --experimental &> /dev/null &
 
-tailscaled -statedir /workspace/$REPOSITORY/.devcontainer/tailscale &> /dev/null &
+tailscaled -statedir /workspace/$REPOSITORY/devcontainer/tailscale &> /dev/null &
