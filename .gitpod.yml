@@ -1,5 +1,5 @@
 image:
-  file: .devcontainer/.gitpod.Dockerfile
+  file: .gitpod.Dockerfile
 
 tasks:
 #  - name: Install Packages
