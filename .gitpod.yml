@@ -1,15 +1,15 @@
 image:
   file: devcontainer/.gitpod.Dockerfile
 
-#tasks:
-#  - name: Install Packages
-#    before: sudo apt-get install qemu-system -y && sudo apt-get install p7zip-full -y && curl -fsSL https://tailscale.com/install.sh | sh
-#  - name: On Create
-#    init: sudo bash .devcontainer/onCreateCommand.sh
-#  - name: Post Start
-#    command: sudo bash .devcontainer/postStartCommand.sh
-# - name: Post Attach
-#    command: sudo bash .devcontainer/postAttachCommand.sh
+tasks:
+  - name: Install Packages
+    before: sudo apt-get install qemu-system -y && sudo apt-get install p7zip-full -y && curl -fsSL https://tailscale.com/install.sh | sh
+  - name: On Create
+    init: sudo bash .devcontainer/onCreateCommand.sh
+  - name: Post Start
+    command: sudo bash .devcontainer/postStartCommand.sh
+ - name: Post Attach
+    command: sudo bash .devcontainer/postAttachCommand.sh
 
 #ports:
 #  - port: 22
