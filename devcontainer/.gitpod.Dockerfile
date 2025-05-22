@@ -11,6 +11,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install p7zip-full --no-install-recom
 RUN DEBIAN_FRONTEND=noninteractive apt-get install openssh-server --no-install-recommends --yes
 RUN DEBIAN_FRONTEND=noninteractive apt-get install htop --no-install-recommends --yes
 RUN DEBIAN_FRONTEND=noninteractive apt-get install ethtool --no-install-recommends --yes
+RUN DEBIAN_FRONTEND=noninteractive apt-get install git --no-install-recommends --yes
 
 RUN rm --recursive --force /var/lib/apt/lists/*
 
