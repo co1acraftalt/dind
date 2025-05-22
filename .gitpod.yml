@@ -8,7 +8,7 @@ tasks:
     init: sudo bash .devcontainer/onCreateCommand.sh
   - name: Post Start
     command: sudo bash .devcontainer/postStartCommand.sh
- - name: Post Attach
+  - name: Post Attach
     command: sudo bash .devcontainer/postAttachCommand.sh
 
 #ports:
