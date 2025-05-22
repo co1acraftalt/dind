@@ -1,28 +1,28 @@
 image:
   file: devcontainer/.gitpod.Dockerfile
 
-tasks:
+#tasks:
 #  - name: Install Packages
 #    before: sudo apt-get install qemu-system -y && sudo apt-get install p7zip-full -y && curl -fsSL https://tailscale.com/install.sh | sh
-  - name: On Create
-    init: sudo bash .devcontainer/onCreateCommand.sh
-  - name: Post Start
-    command: sudo bash .devcontainer/postStartCommand.sh
-  - name: Post Attach
-    command: sudo bash .devcontainer/postAttachCommand.sh
+#  - name: On Create
+#    init: sudo bash .devcontainer/onCreateCommand.sh
+#  - name: Post Start
+#    command: sudo bash .devcontainer/postStartCommand.sh
+# - name: Post Attach
+#    command: sudo bash .devcontainer/postAttachCommand.sh
 
-ports:
-  - port: 22
-    label: GitHub Codespaces (SSH)
+#ports:
+#  - port: 22
+#    label: GitHub Codespaces (SSH)
+#    #onOpen: notify
+#  - port: 3389
+#    label: QEMU (RDP)
+#    #onOpen: notify
+#  - port: 5900
+#    label: QEMU (VNC)
     #onOpen: notify
-  - port: 3389
-    label: QEMU (RDP)
-    #onOpen: notify
-  - port: 5900
-    label: QEMU (VNC)
-    #onOpen: notify
-  - port: 8006
-    label: QEMU (HTTP/HTTPS)
+#  - port: 8006
+#    label: QEMU (HTTP/HTTPS)
     #onOpen: notify
 
 # Note: Gitpod does not support all Docker run options (like privileged, capAdd, securityOpt, or custom device mounts).
